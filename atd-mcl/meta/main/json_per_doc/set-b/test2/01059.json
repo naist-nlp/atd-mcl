@@ -1,0 +1,629 @@
+{
+  "01059": {
+    "sections": {
+      "001": {
+        "sentence_ids": [
+          "001-01",
+          "001-02",
+          "002-01",
+          "002-02",
+          "003-01",
+          "003-02",
+          "004"
+        ]
+      },
+      "002": {
+        "sentence_ids": [
+          "005-01",
+          "005-02",
+          "006",
+          "007",
+          "008",
+          "009",
+          "010-01",
+          "010-02"
+        ]
+      },
+      "003": {
+        "sentence_ids": [
+          "011"
+        ]
+      },
+      "004": {
+        "sentence_ids": [
+          "012"
+        ]
+      },
+      "005": {
+        "sentence_ids": [
+          "013",
+          "014-01",
+          "014-02"
+        ]
+      },
+      "006": {
+        "sentence_ids": [
+          "015-01",
+          "015-02"
+        ]
+      }
+    },
+    "sentences": {
+      "001-01": {
+        "section_id": "001",
+        "span_in_orig_text": [
+          0,
+          9
+        ],
+        "text": "",
+        "mention_ids": [
+          "001",
+          "002"
+        ]
+      },
+      "001-02": {
+        "section_id": "001",
+        "span_in_orig_text": [
+          9,
+          72
+        ],
+        "text": "",
+        "mention_ids": [
+          "007"
+        ]
+      },
+      "002-01": {
+        "section_id": "001",
+        "span_in_orig_text": [
+          0,
+          29
+        ],
+        "text": "",
+        "mention_ids": [
+          "003"
+        ]
+      },
+      "002-02": {
+        "section_id": "001",
+        "span_in_orig_text": [
+          29,
+          75
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "003-01": {
+        "section_id": "001",
+        "span_in_orig_text": [
+          0,
+          18
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "003-02": {
+        "section_id": "001",
+        "span_in_orig_text": [
+          18,
+          25
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "004": {
+        "section_id": "001",
+        "text": "",
+        "mention_ids": []
+      },
+      "005-01": {
+        "section_id": "002",
+        "span_in_orig_text": [
+          0,
+          5
+        ],
+        "text": "",
+        "mention_ids": [
+          "004"
+        ]
+      },
+      "005-02": {
+        "section_id": "002",
+        "span_in_orig_text": [
+          5,
+          36
+        ],
+        "text": "",
+        "mention_ids": [
+          "024"
+        ]
+      },
+      "006": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": [
+          "008"
+        ]
+      },
+      "007": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": [
+          "005",
+          "009",
+          "010",
+          "011"
+        ]
+      },
+      "008": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": [
+          "012",
+          "013",
+          "014",
+          "015",
+          "016"
+        ]
+      },
+      "009": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": [
+          "017"
+        ]
+      },
+      "010-01": {
+        "section_id": "002",
+        "span_in_orig_text": [
+          0,
+          32
+        ],
+        "text": "",
+        "mention_ids": [
+          "018",
+          "025"
+        ]
+      },
+      "010-02": {
+        "section_id": "002",
+        "span_in_orig_text": [
+          32,
+          44
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "011": {
+        "section_id": "003",
+        "text": "",
+        "mention_ids": []
+      },
+      "012": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": [
+          "006",
+          "019"
+        ]
+      },
+      "013": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": [
+          "020"
+        ]
+      },
+      "014-01": {
+        "section_id": "005",
+        "span_in_orig_text": [
+          0,
+          18
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "014-02": {
+        "section_id": "005",
+        "span_in_orig_text": [
+          18,
+          33
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "015-01": {
+        "section_id": "006",
+        "span_in_orig_text": [
+          0,
+          11
+        ],
+        "text": "",
+        "mention_ids": [
+          "023"
+        ]
+      },
+      "015-02": {
+        "section_id": "006",
+        "span_in_orig_text": [
+          11,
+          31
+        ],
+        "text": "",
+        "mention_ids": [
+          "021",
+          "022"
+        ]
+      }
+    },
+    "mentions": {
+      "001": {
+        "sentence_id": "001-01",
+        "entity_id": "C1",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "002": {
+        "sentence_id": "001-01",
+        "entity_id": "C2",
+        "span": [
+          3,
+          6
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "007": {
+        "sentence_id": "001-02",
+        "entity_id": null,
+        "span": [
+          0,
+          1
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM",
+        "ref_spec_amb": true
+      },
+      "003": {
+        "sentence_id": "002-01",
+        "entity_id": "C2",
+        "span": [
+          0,
+          3
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "004": {
+        "sentence_id": "005-01",
+        "entity_id": "C3",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "024": {
+        "sentence_id": "005-02",
+        "entity_id": "C3",
+        "span": [
+          2,
+          3
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM"
+      },
+      "008": {
+        "sentence_id": "006",
+        "entity_id": null,
+        "span": [
+          6,
+          7
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM",
+        "ref_spec_amb": true
+      },
+      "005": {
+        "sentence_id": "007",
+        "entity_id": "C3",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "009": {
+        "sentence_id": "007",
+        "entity_id": "C5",
+        "span": [
+          6,
+          7
+        ],
+        "text": "",
+        "entity_type": "LINE_NOM"
+      },
+      "010": {
+        "sentence_id": "007",
+        "entity_id": "C4",
+        "span": [
+          10,
+          11
+        ],
+        "text": "",
+        "entity_type": "LINE_NOM"
+      },
+      "011": {
+        "sentence_id": "007",
+        "entity_id": null,
+        "span": [
+          15,
+          16
+        ],
+        "text": "",
+        "entity_type": "LINE_NOM",
+        "ref_spec_amb": true
+      },
+      "012": {
+        "sentence_id": "008",
+        "entity_id": "C4",
+        "span": [
+          7,
+          8
+        ],
+        "text": "",
+        "entity_type": "LINE_NOM"
+      },
+      "013": {
+        "sentence_id": "008",
+        "entity_id": "C5",
+        "span": [
+          22,
+          23
+        ],
+        "text": "",
+        "entity_type": "LINE_NOM"
+      },
+      "014": {
+        "sentence_id": "008",
+        "entity_id": "C3",
+        "span": [
+          28,
+          30
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM"
+      },
+      "015": {
+        "sentence_id": "008",
+        "entity_id": "C5",
+        "span": [
+          48,
+          49
+        ],
+        "text": "",
+        "entity_type": "LINE_NOM"
+      },
+      "016": {
+        "sentence_id": "008",
+        "entity_id": null,
+        "span": [
+          62,
+          63
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM",
+        "ref_spec_amb": true
+      },
+      "017": {
+        "sentence_id": "009",
+        "entity_id": null,
+        "span": [
+          0,
+          1
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM",
+        "ref_spec_amb": true
+      },
+      "018": {
+        "sentence_id": "010-01",
+        "entity_id": "C3",
+        "span": [
+          4,
+          5
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM"
+      },
+      "025": {
+        "sentence_id": "010-01",
+        "entity_id": "C6",
+        "span": [
+          6,
+          15
+        ],
+        "text": "",
+        "entity_type": "LOC_OR_FAC"
+      },
+      "006": {
+        "sentence_id": "012",
+        "entity_id": "C7",
+        "span": [
+          0,
+          6
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "019": {
+        "sentence_id": "012",
+        "entity_id": "C7",
+        "span": [
+          7,
+          10
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM"
+      },
+      "020": {
+        "sentence_id": "013",
+        "entity_id": "C3",
+        "span": [
+          10,
+          12
+        ],
+        "text": "",
+        "entity_type": "LOC_NOM"
+      },
+      "023": {
+        "sentence_id": "015-01",
+        "entity_id": "C8",
+        "span": [
+          4,
+          6
+        ],
+        "text": "",
+        "entity_type": "DEICTIC"
+      },
+      "021": {
+        "sentence_id": "015-02",
+        "entity_id": "C8",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "DEICTIC"
+      },
+      "022": {
+        "sentence_id": "015-02",
+        "entity_id": "C9",
+        "span": [
+          8,
+          10
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      }
+    },
+    "entities": {
+      "C1": {
+        "normalized_name": "樫西海岸",
+        "entity_label_merged": "LOC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "Other",
+        "best_ref_url": "https://www.town.otsuki.kochi.jp/kanko/info/kashinishi.php",
+        "best_ref_query": "G: 樫西海岸",
+        "member_mention_ids": [
+          "001"
+        ]
+      },
+      "C2": {
+        "normalized_name": "弁天島",
+        "entity_label_merged": "LOC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "Other",
+        "best_ref_url": "https://tabi-mag.jp/ko0241/",
+        "best_ref_query": "G: 弁天島　樫西",
+        "member_mention_ids": [
+          "002",
+          "003"
+        ]
+      },
+      "C3": {
+        "normalized_name": "柏島",
+        "entity_label_merged": "LOC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/130956543",
+        "best_ref_query": "高知県　柏島",
+        "member_mention_ids": [
+          "004",
+          "005",
+          "014",
+          "018",
+          "020",
+          "024"
+        ]
+      },
+      "C4": {
+        "normalized_name": "新星堂柏島大橋",
+        "entity_label_merged": "LINE",
+        "has_name": false,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/114279299",
+        "best_ref_query": "新星堂柏島大橋",
+        "member_mention_ids": [
+          "010",
+          "012"
+        ]
+      },
+      "C5": {
+        "normalized_name": "橋",
+        "entity_label_merged": "LINE",
+        "has_name": false,
+        "has_reference": false,
+        "member_mention_ids": [
+          "009",
+          "013",
+          "015"
+        ]
+      },
+      "C6": {
+        "normalized_name": "ダイビングスポット",
+        "entity_label_merged": "UNK",
+        "has_name": false,
+        "has_reference": false,
+        "member_mention_ids": [
+          "025"
+        ]
+      },
+      "C7": {
+        "normalized_name": "上林森林公園",
+        "entity_label_merged": "MIX",
+        "has_name": true,
+        "coref_attr_pairs": "T6-T19",
+        "has_reference": true,
+        "best_ref_type": "Other",
+        "best_ref_url": "https://www.city.toon.ehime.jp/soshiki/13/2169.html",
+        "best_ref_query": "G: 上林森林公園",
+        "member_mention_ids": [
+          "006",
+          "019"
+        ]
+      },
+      "C8": {
+        "normalized_name": "ここ",
+        "entity_label_merged": "UNK",
+        "has_name": false,
+        "has_reference": false,
+        "member_mention_ids": [
+          "021",
+          "023"
+        ]
+      },
+      "C9": {
+        "normalized_name": "空港",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/50557531",
+        "best_ref_query": "松山空港",
+        "member_mention_ids": [
+          "022"
+        ]
+      }
+    }
+  }
+}

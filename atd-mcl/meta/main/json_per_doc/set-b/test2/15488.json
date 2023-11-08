@@ -1,0 +1,436 @@
+{
+  "15488": {
+    "sections": {
+      "001": {
+        "sentence_ids": [
+          "001"
+        ]
+      },
+      "002": {
+        "sentence_ids": [
+          "002"
+        ]
+      },
+      "003": {
+        "sentence_ids": [
+          "003",
+          "004"
+        ]
+      },
+      "004": {
+        "sentence_ids": [
+          "005",
+          "006",
+          "007"
+        ]
+      },
+      "005": {
+        "sentence_ids": [
+          "008",
+          "009"
+        ]
+      },
+      "006": {
+        "sentence_ids": [
+          "010",
+          "011"
+        ]
+      },
+      "007": {
+        "sentence_ids": [
+          "012-01",
+          "012-02"
+        ]
+      },
+      "008": {
+        "sentence_ids": [
+          "013",
+          "014"
+        ]
+      },
+      "009": {
+        "sentence_ids": [
+          "015"
+        ]
+      },
+      "010": {
+        "sentence_ids": [
+          "016",
+          "017"
+        ]
+      },
+      "011": {
+        "sentence_ids": [
+          "018"
+        ]
+      },
+      "012": {
+        "sentence_ids": [
+          "019-01",
+          "019-02"
+        ]
+      },
+      "013": {
+        "sentence_ids": [
+          "020",
+          "021",
+          "022",
+          "023"
+        ]
+      },
+      "014": {
+        "sentence_ids": [
+          "024",
+          "025",
+          "026"
+        ]
+      },
+      "015": {
+        "sentence_ids": [
+          "027"
+        ]
+      },
+      "016": {
+        "sentence_ids": [
+          "028",
+          "029-01",
+          "029-02"
+        ]
+      },
+      "017": {
+        "sentence_ids": [
+          "030",
+          "031"
+        ]
+      },
+      "018": {
+        "sentence_ids": [
+          "032",
+          "033"
+        ]
+      },
+      "019": {
+        "sentence_ids": [
+          "034"
+        ]
+      },
+      "020": {
+        "sentence_ids": [
+          "035"
+        ]
+      },
+      "021": {
+        "sentence_ids": [
+          "036"
+        ]
+      },
+      "022": {
+        "sentence_ids": [
+          "037"
+        ]
+      },
+      "023": {
+        "sentence_ids": [
+          "038",
+          "039-01",
+          "039-02"
+        ]
+      }
+    },
+    "sentences": {
+      "001": {
+        "section_id": "001",
+        "text": "",
+        "mention_ids": []
+      },
+      "002": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": []
+      },
+      "003": {
+        "section_id": "003",
+        "text": "",
+        "mention_ids": []
+      },
+      "004": {
+        "section_id": "003",
+        "text": "",
+        "mention_ids": []
+      },
+      "005": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": []
+      },
+      "006": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": []
+      },
+      "007": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": []
+      },
+      "008": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": []
+      },
+      "009": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": []
+      },
+      "010": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "011": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "012-01": {
+        "section_id": "007",
+        "span_in_orig_text": [
+          0,
+          23
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "012-02": {
+        "section_id": "007",
+        "span_in_orig_text": [
+          23,
+          42
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "013": {
+        "section_id": "008",
+        "text": "",
+        "mention_ids": []
+      },
+      "014": {
+        "section_id": "008",
+        "text": "",
+        "mention_ids": []
+      },
+      "015": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": []
+      },
+      "016": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": []
+      },
+      "017": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": [
+          "002"
+        ]
+      },
+      "018": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": []
+      },
+      "019-01": {
+        "section_id": "012",
+        "span_in_orig_text": [
+          0,
+          9
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "019-02": {
+        "section_id": "012",
+        "span_in_orig_text": [
+          9,
+          28
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "020": {
+        "section_id": "013",
+        "text": "",
+        "mention_ids": []
+      },
+      "021": {
+        "section_id": "013",
+        "text": "",
+        "mention_ids": [
+          "003"
+        ]
+      },
+      "022": {
+        "section_id": "013",
+        "text": "",
+        "mention_ids": []
+      },
+      "023": {
+        "section_id": "013",
+        "text": "",
+        "mention_ids": []
+      },
+      "024": {
+        "section_id": "014",
+        "text": "",
+        "mention_ids": []
+      },
+      "025": {
+        "section_id": "014",
+        "text": "",
+        "mention_ids": []
+      },
+      "026": {
+        "section_id": "014",
+        "text": "",
+        "mention_ids": []
+      },
+      "027": {
+        "section_id": "015",
+        "text": "",
+        "mention_ids": []
+      },
+      "028": {
+        "section_id": "016",
+        "text": "",
+        "mention_ids": []
+      },
+      "029-01": {
+        "section_id": "016",
+        "span_in_orig_text": [
+          0,
+          14
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "029-02": {
+        "section_id": "016",
+        "span_in_orig_text": [
+          14,
+          59
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "030": {
+        "section_id": "017",
+        "text": "",
+        "mention_ids": []
+      },
+      "031": {
+        "section_id": "017",
+        "text": "",
+        "mention_ids": []
+      },
+      "032": {
+        "section_id": "018",
+        "text": "",
+        "mention_ids": []
+      },
+      "033": {
+        "section_id": "018",
+        "text": "",
+        "mention_ids": []
+      },
+      "034": {
+        "section_id": "019",
+        "text": "",
+        "mention_ids": []
+      },
+      "035": {
+        "section_id": "020",
+        "text": "",
+        "mention_ids": []
+      },
+      "036": {
+        "section_id": "021",
+        "text": "",
+        "mention_ids": []
+      },
+      "037": {
+        "section_id": "022",
+        "text": "",
+        "mention_ids": []
+      },
+      "038": {
+        "section_id": "023",
+        "text": "",
+        "mention_ids": []
+      },
+      "039-01": {
+        "section_id": "023",
+        "span_in_orig_text": [
+          0,
+          15
+        ],
+        "text": "",
+        "mention_ids": []
+      },
+      "039-02": {
+        "section_id": "023",
+        "span_in_orig_text": [
+          15,
+          22
+        ],
+        "text": "",
+        "mention_ids": []
+      }
+    },
+    "mentions": {
+      "002": {
+        "sentence_id": "017",
+        "entity_id": "C1",
+        "span": [
+          0,
+          6
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "003": {
+        "sentence_id": "021",
+        "entity_id": "C2",
+        "span": [
+          0,
+          4
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      }
+    },
+    "entities": {
+      "C1": {
+        "normalized_name": "イマジンさん",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": false,
+        "member_mention_ids": [
+          "002"
+        ]
+      },
+      "C2": {
+        "normalized_name": "ゴンドラ",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "has_reference": false,
+        "member_mention_ids": [
+          "003"
+        ]
+      }
+    }
+  }
+}

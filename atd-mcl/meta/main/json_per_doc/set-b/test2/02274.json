@@ -1,0 +1,499 @@
+{
+  "02274": {
+    "sections": {
+      "001": {
+        "sentence_ids": [
+          "001",
+          "002"
+        ]
+      },
+      "002": {
+        "sentence_ids": [
+          "003",
+          "004",
+          "005"
+        ]
+      },
+      "003": {
+        "sentence_ids": [
+          "006",
+          "007"
+        ]
+      },
+      "004": {
+        "sentence_ids": [
+          "008",
+          "009"
+        ]
+      },
+      "005": {
+        "sentence_ids": [
+          "010",
+          "011",
+          "012",
+          "013"
+        ]
+      },
+      "006": {
+        "sentence_ids": [
+          "014",
+          "015"
+        ]
+      },
+      "007": {
+        "sentence_ids": [
+          "016"
+        ]
+      },
+      "008": {
+        "sentence_ids": [
+          "017"
+        ]
+      },
+      "009": {
+        "sentence_ids": [
+          "018",
+          "019"
+        ]
+      },
+      "010": {
+        "sentence_ids": [
+          "020",
+          "021",
+          "022",
+          "023"
+        ]
+      },
+      "011": {
+        "sentence_ids": [
+          "024",
+          "025",
+          "026",
+          "027",
+          "028"
+        ]
+      }
+    },
+    "sentences": {
+      "001": {
+        "section_id": "001",
+        "text": "",
+        "mention_ids": [
+          "004"
+        ]
+      },
+      "002": {
+        "section_id": "001",
+        "text": "",
+        "mention_ids": [
+          "005"
+        ]
+      },
+      "003": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": []
+      },
+      "004": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": [
+          "006"
+        ]
+      },
+      "005": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": []
+      },
+      "006": {
+        "section_id": "003",
+        "text": "",
+        "mention_ids": []
+      },
+      "007": {
+        "section_id": "003",
+        "text": "",
+        "mention_ids": []
+      },
+      "008": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": [
+          "007"
+        ]
+      },
+      "009": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": []
+      },
+      "010": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": [
+          "008"
+        ]
+      },
+      "011": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": []
+      },
+      "012": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": [
+          "009",
+          "010"
+        ]
+      },
+      "013": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": []
+      },
+      "014": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "015": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "016": {
+        "section_id": "007",
+        "text": "",
+        "mention_ids": []
+      },
+      "017": {
+        "section_id": "008",
+        "text": "",
+        "mention_ids": []
+      },
+      "018": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": [
+          "011",
+          "012"
+        ]
+      },
+      "019": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": []
+      },
+      "020": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": [
+          "001",
+          "013",
+          "015"
+        ]
+      },
+      "021": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": [
+          "002",
+          "014"
+        ]
+      },
+      "022": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": []
+      },
+      "023": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": []
+      },
+      "024": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": []
+      },
+      "025": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": []
+      },
+      "026": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": []
+      },
+      "027": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": []
+      },
+      "028": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": [
+          "003"
+        ]
+      }
+    },
+    "mentions": {
+      "004": {
+        "sentence_id": "001",
+        "entity_id": "C1",
+        "span": [
+          14,
+          17
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "005": {
+        "sentence_id": "002",
+        "entity_id": "C1",
+        "span": [
+          2,
+          4
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "006": {
+        "sentence_id": "004",
+        "entity_id": "C1",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "007": {
+        "sentence_id": "008",
+        "entity_id": "C2",
+        "span": [
+          15,
+          17
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "008": {
+        "sentence_id": "010",
+        "entity_id": "C3",
+        "span": [
+          0,
+          3
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "009": {
+        "sentence_id": "012",
+        "entity_id": "C3",
+        "span": [
+          4,
+          9
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "010": {
+        "sentence_id": "012",
+        "entity_id": "C3",
+        "span": [
+          19,
+          22
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "011": {
+        "sentence_id": "018",
+        "entity_id": "C3",
+        "span": [
+          0,
+          3
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "012": {
+        "sentence_id": "018",
+        "entity_id": "C4",
+        "span": [
+          18,
+          25
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "001": {
+        "sentence_id": "020",
+        "entity_id": "C5",
+        "span": [
+          21,
+          25
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "015": {
+        "sentence_id": "020",
+        "entity_id": "C7",
+        "span": [
+          26,
+          29
+        ],
+        "text": "",
+        "entity_type": "LOC_OR_FAC"
+      },
+      "013": {
+        "sentence_id": "020",
+        "entity_id": "C6+C8",
+        "span": [
+          32,
+          34
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "014": {
+        "sentence_id": "021",
+        "entity_id": "C6+C8",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "LOC_OR_FAC"
+      },
+      "002": {
+        "sentence_id": "021",
+        "entity_id": "C9",
+        "span": [
+          4,
+          15
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "003": {
+        "sentence_id": "028",
+        "entity_id": "C5",
+        "span": [
+          7,
+          10
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      }
+    },
+    "entities": {
+      "C1": {
+        "normalized_name": "向志満",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": false,
+        "second_A_ref_type": "Other",
+        "second_A_ref_url": "https://1-bankan.co.jp/iwaki_facility.html",
+        "second_A_ref_query": "G: 和楽旬彩 向志満 ときわ",
+        "member_mention_ids": [
+          "004",
+          "005",
+          "006"
+        ]
+      },
+      "C2": {
+        "normalized_name": "塩屋崎灯台",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/358960917",
+        "best_ref_query": "塩屋崎灯台",
+        "member_mention_ids": [
+          "007"
+        ]
+      },
+      "C3": {
+        "normalized_name": "アクアマリンふくしま",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/103956234",
+        "best_ref_query": "アクアマリンふくしま",
+        "member_mention_ids": [
+          "008",
+          "009",
+          "010",
+          "011"
+        ]
+      },
+      "C4": {
+        "normalized_name": "いわき・ら・ら・ミュウ",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/node/1280266734",
+        "best_ref_query": "ら・ら・ミュウ",
+        "member_mention_ids": [
+          "012"
+        ]
+      },
+      "C5": {
+        "normalized_name": "いわき市",
+        "entity_label_merged": "LOC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/relation/4196695",
+        "best_ref_query": "いわき市",
+        "member_mention_ids": [
+          "001",
+          "003"
+        ]
+      },
+      "C6+C8": {
+        "normalized_name": "鮨仙",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "Other",
+        "best_ref_url": "https://tabelog.com/fukushima/A0704/A070401/7000641/",
+        "best_ref_query": "G: 鮨仙　いわき市",
+        "member_mention_ids": [
+          "013",
+          "014"
+        ]
+      },
+      "C7": {
+        "normalized_name": "中心部",
+        "entity_label_merged": "UNK",
+        "has_name": false,
+        "has_reference": false,
+        "member_mention_ids": [
+          "015"
+        ]
+      },
+      "C9": {
+        "normalized_name": "いわきワシントンホテル",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/679011426",
+        "best_ref_query": "いわきワシントンホテル",
+        "member_mention_ids": [
+          "002"
+        ]
+      }
+    }
+  }
+}

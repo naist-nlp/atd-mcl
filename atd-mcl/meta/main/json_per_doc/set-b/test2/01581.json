@@ -1,0 +1,588 @@
+{
+  "01581": {
+    "sections": {
+      "001": {
+        "sentence_ids": [
+          "001",
+          "002"
+        ]
+      },
+      "002": {
+        "sentence_ids": [
+          "003",
+          "004",
+          "005"
+        ]
+      },
+      "003": {
+        "sentence_ids": [
+          "006"
+        ]
+      },
+      "004": {
+        "sentence_ids": [
+          "007"
+        ]
+      },
+      "005": {
+        "sentence_ids": [
+          "008",
+          "009"
+        ]
+      },
+      "006": {
+        "sentence_ids": [
+          "010",
+          "011",
+          "012"
+        ]
+      },
+      "007": {
+        "sentence_ids": [
+          "013",
+          "014",
+          "015",
+          "016"
+        ]
+      },
+      "008": {
+        "sentence_ids": [
+          "017"
+        ]
+      },
+      "009": {
+        "sentence_ids": [
+          "018",
+          "019",
+          "020",
+          "021",
+          "022",
+          "023"
+        ]
+      },
+      "010": {
+        "sentence_ids": [
+          "024"
+        ]
+      },
+      "011": {
+        "sentence_ids": [
+          "025",
+          "026",
+          "027",
+          "028"
+        ]
+      }
+    },
+    "sentences": {
+      "001": {
+        "section_id": "001",
+        "text": "",
+        "mention_ids": [
+          "001",
+          "002"
+        ]
+      },
+      "002": {
+        "section_id": "001",
+        "text": "",
+        "mention_ids": [
+          "007"
+        ]
+      },
+      "003": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": [
+          "003",
+          "008",
+          "009"
+        ]
+      },
+      "004": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": []
+      },
+      "005": {
+        "section_id": "002",
+        "text": "",
+        "mention_ids": []
+      },
+      "006": {
+        "section_id": "003",
+        "text": "",
+        "mention_ids": [
+          "010"
+        ]
+      },
+      "007": {
+        "section_id": "004",
+        "text": "",
+        "mention_ids": []
+      },
+      "008": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": [
+          "004"
+        ]
+      },
+      "009": {
+        "section_id": "005",
+        "text": "",
+        "mention_ids": []
+      },
+      "010": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "011": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "012": {
+        "section_id": "006",
+        "text": "",
+        "mention_ids": []
+      },
+      "013": {
+        "section_id": "007",
+        "text": "",
+        "mention_ids": []
+      },
+      "014": {
+        "section_id": "007",
+        "text": "",
+        "mention_ids": [
+          "005"
+        ]
+      },
+      "015": {
+        "section_id": "007",
+        "text": "",
+        "mention_ids": []
+      },
+      "016": {
+        "section_id": "007",
+        "text": "",
+        "mention_ids": []
+      },
+      "017": {
+        "section_id": "008",
+        "text": "",
+        "mention_ids": []
+      },
+      "018": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": [
+          "011",
+          "012"
+        ]
+      },
+      "019": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": [
+          "013"
+        ]
+      },
+      "020": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": [
+          "006"
+        ]
+      },
+      "021": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": [
+          "014"
+        ]
+      },
+      "022": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": []
+      },
+      "023": {
+        "section_id": "009",
+        "text": "",
+        "mention_ids": []
+      },
+      "024": {
+        "section_id": "010",
+        "text": "",
+        "mention_ids": []
+      },
+      "025": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": [
+          "015",
+          "016"
+        ]
+      },
+      "026": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": []
+      },
+      "027": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": [
+          "017",
+          "018",
+          "019"
+        ]
+      },
+      "028": {
+        "section_id": "011",
+        "text": "",
+        "mention_ids": [
+          "020"
+        ]
+      }
+    },
+    "mentions": {
+      "001": {
+        "sentence_id": "001",
+        "entity_id": null,
+        "span": [
+          3,
+          6
+        ],
+        "text": "",
+        "entity_type": "TRANS_NOM"
+      },
+      "002": {
+        "sentence_id": "001",
+        "entity_id": "C1",
+        "span": [
+          7,
+          10
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "007": {
+        "sentence_id": "002",
+        "entity_id": "C1",
+        "span": [
+          0,
+          1
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "003": {
+        "sentence_id": "003",
+        "entity_id": "C1",
+        "span": [
+          0,
+          3
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "008": {
+        "sentence_id": "003",
+        "entity_id": "C2",
+        "span": [
+          4,
+          9
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "009": {
+        "sentence_id": "003",
+        "entity_id": "C2",
+        "span": [
+          11,
+          13
+        ],
+        "text": "",
+        "entity_type": "DEICTIC"
+      },
+      "010": {
+        "sentence_id": "006",
+        "entity_id": "C3",
+        "span": [
+          0,
+          6
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "004": {
+        "sentence_id": "008",
+        "entity_id": "C4",
+        "span": [
+          3,
+          8
+        ],
+        "text": "",
+        "entity_type": "LINE_NAME"
+      },
+      "005": {
+        "sentence_id": "014",
+        "entity_id": "C5",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "011": {
+        "sentence_id": "018",
+        "entity_id": "C6",
+        "span": [
+          0,
+          3
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "012": {
+        "sentence_id": "018",
+        "entity_id": "C6",
+        "span": [
+          13,
+          19
+        ],
+        "text": "",
+        "entity_type": "FAC_NAME"
+      },
+      "013": {
+        "sentence_id": "019",
+        "entity_id": "C6",
+        "span": [
+          9,
+          12
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "006": {
+        "sentence_id": "020",
+        "entity_id": "C4",
+        "span": [
+          17,
+          22
+        ],
+        "text": "",
+        "entity_type": "LINE_NAME"
+      },
+      "014": {
+        "sentence_id": "021",
+        "entity_id": "C1",
+        "span": [
+          8,
+          9
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "015": {
+        "sentence_id": "025",
+        "entity_id": "C7",
+        "span": [
+          12,
+          15
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "016": {
+        "sentence_id": "025",
+        "entity_id": "C8",
+        "span": [
+          18,
+          24
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "017": {
+        "sentence_id": "027",
+        "entity_id": "C9",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "LOC_NAME"
+      },
+      "018": {
+        "sentence_id": "027",
+        "entity_id": "C10",
+        "span": [
+          3,
+          5
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "019": {
+        "sentence_id": "027",
+        "entity_id": "C10",
+        "span": [
+          13,
+          15
+        ],
+        "text": "",
+        "entity_type": "FAC_NOM"
+      },
+      "020": {
+        "sentence_id": "028",
+        "entity_id": "C8",
+        "span": [
+          0,
+          2
+        ],
+        "text": "",
+        "entity_type": "DEICTIC"
+      }
+    },
+    "entities": {
+      "C1": {
+        "normalized_name": "仙台駅",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/node/3791321529",
+        "best_ref_query": "仙台",
+        "member_mention_ids": [
+          "002",
+          "003",
+          "007",
+          "014"
+        ]
+      },
+      "C2": {
+        "normalized_name": "ずんだ茶寮 仙台駅ずんだ小径店;ずんだ茶寮 仙台駅おみやげ処1号店",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "Other",
+        "best_ref_url": "https://zundasaryo.com/",
+        "best_ref_query": "G: ずんだ茶寮　仙台駅",
+        "second_A_ref_type": "Other",
+        "second_A_ref_url": "https://zundasaryo.com/",
+        "second_A_ref_query": "G: ずんだ茶寮　仙台駅",
+        "member_mention_ids": [
+          "008",
+          "009"
+        ]
+      },
+      "C3": {
+        "normalized_name": "アーケード街",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "has_reference": false,
+        "member_mention_ids": [
+          "010"
+        ]
+      },
+      "C4": {
+        "normalized_name": "定禅寺通",
+        "entity_label_merged": "LINE",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "WD",
+        "best_ref_url": "https://www.wikidata.org/wiki/Q11452252",
+        "best_ref_query": "WD: 定禅寺通",
+        "member_mention_ids": [
+          "004",
+          "006"
+        ]
+      },
+      "C5": {
+        "normalized_name": "仙台市",
+        "entity_label_merged": "LOC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/relation/4135014",
+        "best_ref_query": "仙台市",
+        "member_mention_ids": [
+          "005"
+        ]
+      },
+      "C6": {
+        "normalized_name": "ANAホリデイ·イン仙台",
+        "entity_label_merged": "FAC",
+        "has_name": true,
+        "coref_attr_pairs": "T11-T12",
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/way/108441314",
+        "best_ref_query": "ANA Holiday Inn Sendai",
+        "member_mention_ids": [
+          "011",
+          "012",
+          "013"
+        ]
+      },
+      "C7": {
+        "normalized_name": "仙台駅",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "has_reference": true,
+        "best_ref_type": "OSM_PARTOF",
+        "best_ref_url": "https://www.openstreetmap.org/relation/13589687",
+        "best_ref_query": "仙台",
+        "member_mention_ids": [
+          "015"
+        ]
+      },
+      "C8": {
+        "normalized_name": "塩釜すし哲 S-PAL仙台店",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "has_reference": true,
+        "best_ref_type": "OSM_PARTOF",
+        "best_ref_url": "https://www.openstreetmap.org/relation/13589687",
+        "best_ref_query": "仙台",
+        "member_mention_ids": [
+          "016",
+          "020"
+        ]
+      },
+      "C9": {
+        "normalized_name": "塩竃市",
+        "entity_label_merged": "LOC",
+        "has_name": true,
+        "has_reference": true,
+        "best_ref_type": "OSM",
+        "best_ref_url": "https://www.openstreetmap.org/relation/4159322",
+        "best_ref_query": "塩竃市",
+        "member_mention_ids": [
+          "017"
+        ]
+      },
+      "C10": {
+        "normalized_name": "塩釜すし哲 本店",
+        "entity_label_merged": "FAC",
+        "has_name": false,
+        "coref_attr_pairs": "T18-T19",
+        "has_reference": true,
+        "best_ref_type": "Other",
+        "best_ref_url": "http://www.shiogama-sushitetsu.com/shiogama/",
+        "best_ref_query": "G: 塩釜すし哲 本店",
+        "member_mention_ids": [
+          "018",
+          "019"
+        ]
+      }
+    }
+  }
+}
