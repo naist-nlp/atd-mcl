@@ -79,24 +79,24 @@
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "001",
-          "002"
+          "M001",
+          "M002"
         ]
       },
       "002": {
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "007"
+          "M007"
         ]
       },
       "003": {
         "section_id": "002",
         "text": "",
         "mention_ids": [
-          "003",
-          "008",
-          "009"
+          "M003",
+          "M008",
+          "M009"
         ]
       },
       "004": {
@@ -113,7 +113,7 @@
         "section_id": "003",
         "text": "",
         "mention_ids": [
-          "010"
+          "M010"
         ]
       },
       "007": {
@@ -125,7 +125,7 @@
         "section_id": "005",
         "text": "",
         "mention_ids": [
-          "004"
+          "M004"
         ]
       },
       "009": {
@@ -157,7 +157,7 @@
         "section_id": "007",
         "text": "",
         "mention_ids": [
-          "005"
+          "M005"
         ]
       },
       "015": {
@@ -179,29 +179,29 @@
         "section_id": "009",
         "text": "",
         "mention_ids": [
-          "011",
-          "012"
+          "M011",
+          "M012"
         ]
       },
       "019": {
         "section_id": "009",
         "text": "",
         "mention_ids": [
-          "013"
+          "M013"
         ]
       },
       "020": {
         "section_id": "009",
         "text": "",
         "mention_ids": [
-          "006"
+          "M006"
         ]
       },
       "021": {
         "section_id": "009",
         "text": "",
         "mention_ids": [
-          "014"
+          "M014"
         ]
       },
       "022": {
@@ -223,8 +223,8 @@
         "section_id": "011",
         "text": "",
         "mention_ids": [
-          "015",
-          "016"
+          "M015",
+          "M016"
         ]
       },
       "026": {
@@ -236,21 +236,21 @@
         "section_id": "011",
         "text": "",
         "mention_ids": [
-          "017",
-          "018",
-          "019"
+          "M017",
+          "M018",
+          "M019"
         ]
       },
       "028": {
         "section_id": "011",
         "text": "",
         "mention_ids": [
-          "020"
+          "M020"
         ]
       }
     },
     "mentions": {
-      "001": {
+      "M001": {
         "sentence_id": "001",
         "entity_id": null,
         "span": [
@@ -260,9 +260,9 @@
         "text": "",
         "entity_type": "TRANS_NOM"
       },
-      "002": {
+      "M002": {
         "sentence_id": "001",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           7,
           10
@@ -270,9 +270,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "007": {
+      "M007": {
         "sentence_id": "002",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           1
@@ -280,9 +280,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "003": {
+      "M003": {
         "sentence_id": "003",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           3
@@ -290,9 +290,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "008": {
+      "M008": {
         "sentence_id": "003",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           4,
           9
@@ -300,9 +300,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "009": {
+      "M009": {
         "sentence_id": "003",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           11,
           13
@@ -310,9 +310,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "010": {
+      "M010": {
         "sentence_id": "006",
-        "entity_id": "C3",
+        "entity_id": "E003",
         "span": [
           0,
           6
@@ -320,9 +320,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "004": {
+      "M004": {
         "sentence_id": "008",
-        "entity_id": "C4",
+        "entity_id": "E004",
         "span": [
           3,
           8
@@ -330,9 +330,9 @@
         "text": "",
         "entity_type": "LINE_NAME"
       },
-      "005": {
+      "M005": {
         "sentence_id": "014",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           0,
           2
@@ -340,9 +340,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "011": {
+      "M011": {
         "sentence_id": "018",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           0,
           3
@@ -350,9 +350,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "012": {
+      "M012": {
         "sentence_id": "018",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           13,
           19
@@ -360,9 +360,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "013": {
+      "M013": {
         "sentence_id": "019",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           9,
           12
@@ -370,9 +370,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "006": {
+      "M006": {
         "sentence_id": "020",
-        "entity_id": "C4",
+        "entity_id": "E004",
         "span": [
           17,
           22
@@ -380,9 +380,9 @@
         "text": "",
         "entity_type": "LINE_NAME"
       },
-      "014": {
+      "M014": {
         "sentence_id": "021",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           8,
           9
@@ -390,9 +390,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "015": {
+      "M015": {
         "sentence_id": "025",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           12,
           15
@@ -400,9 +400,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "016": {
+      "M016": {
         "sentence_id": "025",
-        "entity_id": "C8",
+        "entity_id": "E008",
         "span": [
           18,
           24
@@ -410,9 +410,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "017": {
+      "M017": {
         "sentence_id": "027",
-        "entity_id": "C9",
+        "entity_id": "E009",
         "span": [
           0,
           2
@@ -420,9 +420,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "018": {
+      "M018": {
         "sentence_id": "027",
-        "entity_id": "C10",
+        "entity_id": "E010",
         "span": [
           3,
           5
@@ -430,9 +430,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "019": {
+      "M019": {
         "sentence_id": "027",
-        "entity_id": "C10",
+        "entity_id": "E010",
         "span": [
           13,
           15
@@ -440,9 +440,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "020": {
+      "M020": {
         "sentence_id": "028",
-        "entity_id": "C8",
+        "entity_id": "E008",
         "span": [
           0,
           2
@@ -452,24 +452,26 @@
       }
     },
     "entities": {
-      "C1": {
+      "E001": {
+        "original_entity_id": "C1",
         "normalized_name": "仙台駅",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/node/3791321529",
         "best_ref_query": "仙台",
         "member_mention_ids": [
-          "002",
-          "003",
-          "007",
-          "014"
+          "M002",
+          "M003",
+          "M007",
+          "M014"
         ]
       },
-      "C2": {
+      "E002": {
+        "original_entity_id": "C2",
         "normalized_name": "ずんだ茶寮 仙台駅ずんだ小径店;ずんだ茶寮 仙台駅おみやげ処1号店",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "Other",
@@ -479,47 +481,51 @@
         "second_A_ref_url": "https://zundasaryo.com/",
         "second_A_ref_query": "G: ずんだ茶寮　仙台駅",
         "member_mention_ids": [
-          "008",
-          "009"
+          "M008",
+          "M009"
         ]
       },
-      "C3": {
+      "E003": {
+        "original_entity_id": "C3",
         "normalized_name": "アーケード街",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": false,
         "member_mention_ids": [
-          "010"
+          "M010"
         ]
       },
-      "C4": {
+      "E004": {
+        "original_entity_id": "C4",
         "normalized_name": "定禅寺通",
-        "entity_label_merged": "LINE",
+        "entity_type_merged": "LINE",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "WD",
         "best_ref_url": "https://www.wikidata.org/wiki/Q11452252",
         "best_ref_query": "WD: 定禅寺通",
         "member_mention_ids": [
-          "004",
-          "006"
+          "M004",
+          "M006"
         ]
       },
-      "C5": {
+      "E005": {
+        "original_entity_id": "C5",
         "normalized_name": "仙台市",
-        "entity_label_merged": "LOC",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/relation/4135014",
         "best_ref_query": "仙台市",
         "member_mention_ids": [
-          "005"
+          "M005"
         ]
       },
-      "C6": {
+      "E006": {
+        "original_entity_id": "C6",
         "normalized_name": "ANAホリデイ·イン仙台",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T11-T12",
         "has_reference": true,
@@ -527,51 +533,55 @@
         "best_ref_url": "https://www.openstreetmap.org/way/108441314",
         "best_ref_query": "ANA Holiday Inn Sendai",
         "member_mention_ids": [
-          "011",
-          "012",
-          "013"
+          "M011",
+          "M012",
+          "M013"
         ]
       },
-      "C7": {
+      "E007": {
+        "original_entity_id": "C7",
         "normalized_name": "仙台駅",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": true,
         "best_ref_type": "OSM_PARTOF",
         "best_ref_url": "https://www.openstreetmap.org/relation/13589687",
         "best_ref_query": "仙台",
         "member_mention_ids": [
-          "015"
+          "M015"
         ]
       },
-      "C8": {
+      "E008": {
+        "original_entity_id": "C8",
         "normalized_name": "塩釜すし哲 S-PAL仙台店",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": true,
         "best_ref_type": "OSM_PARTOF",
         "best_ref_url": "https://www.openstreetmap.org/relation/13589687",
         "best_ref_query": "仙台",
         "member_mention_ids": [
-          "016",
-          "020"
+          "M016",
+          "M020"
         ]
       },
-      "C9": {
+      "E009": {
+        "original_entity_id": "C9",
         "normalized_name": "塩竃市",
-        "entity_label_merged": "LOC",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/relation/4159322",
         "best_ref_query": "塩竃市",
         "member_mention_ids": [
-          "017"
+          "M017"
         ]
       },
-      "C10": {
+      "E010": {
+        "original_entity_id": "C10",
         "normalized_name": "塩釜すし哲 本店",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "coref_attr_pairs": "T18-T19",
         "has_reference": true,
@@ -579,8 +589,8 @@
         "best_ref_url": "http://www.shiogama-sushitetsu.com/shiogama/",
         "best_ref_query": "G: 塩釜すし哲 本店",
         "member_mention_ids": [
-          "018",
-          "019"
+          "M018",
+          "M019"
         ]
       }
     }

@@ -59,7 +59,7 @@
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "001"
+          "M001"
         ]
       },
       "002-01": {
@@ -70,9 +70,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "002",
-          "003",
-          "004"
+          "M002",
+          "M003",
+          "M004"
         ]
       },
       "002-02": {
@@ -92,7 +92,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "006"
+          "M006"
         ]
       },
       "003-02": {
@@ -112,7 +112,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "007"
+          "M007"
         ]
       },
       "004-02": {
@@ -128,7 +128,7 @@
         "section_id": "004",
         "text": "",
         "mention_ids": [
-          "010"
+          "M010"
         ]
       },
       "006-01": {
@@ -176,14 +176,14 @@
         ],
         "text": "",
         "mention_ids": [
-          "011"
+          "M011"
         ]
       },
       "010": {
         "section_id": "006",
         "text": "",
         "mention_ids": [
-          "012"
+          "M012"
         ]
       },
       "011": {
@@ -205,9 +205,9 @@
         "section_id": "008",
         "text": "",
         "mention_ids": [
-          "005",
-          "008",
-          "009"
+          "M005",
+          "M008",
+          "M009"
         ]
       },
       "015": {
@@ -217,9 +217,9 @@
       }
     },
     "mentions": {
-      "001": {
+      "M001": {
         "sentence_id": "001",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           12,
           15
@@ -227,9 +227,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "002": {
+      "M002": {
         "sentence_id": "002-01",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           2
@@ -237,7 +237,7 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "003": {
+      "M003": {
         "sentence_id": "002-01",
         "entity_id": null,
         "span": [
@@ -247,9 +247,9 @@
         "text": "",
         "entity_type": "TRANS_NAME"
       },
-      "004": {
+      "M004": {
         "sentence_id": "002-01",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           27,
           35
@@ -257,7 +257,7 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "006": {
+      "M006": {
         "sentence_id": "003-01",
         "entity_id": null,
         "span": [
@@ -267,7 +267,7 @@
         "text": "",
         "entity_type": "TRANS_NAME"
       },
-      "007": {
+      "M007": {
         "sentence_id": "004-01",
         "entity_id": null,
         "span": [
@@ -277,9 +277,9 @@
         "text": "",
         "entity_type": "TRANS_NAME"
       },
-      "010": {
+      "M010": {
         "sentence_id": "005",
-        "entity_id": "C3",
+        "entity_id": "E003",
         "span": [
           0,
           2
@@ -287,9 +287,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "011": {
+      "M011": {
         "sentence_id": "009-02",
-        "entity_id": "C4",
+        "entity_id": "E004",
         "span": [
           5,
           8
@@ -297,9 +297,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "012": {
+      "M012": {
         "sentence_id": "010",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           58,
           61
@@ -307,9 +307,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "009": {
+      "M009": {
         "sentence_id": "014",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           0,
           3
@@ -317,7 +317,7 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "005": {
+      "M005": {
         "sentence_id": "014",
         "entity_id": null,
         "span": [
@@ -327,9 +327,9 @@
         "text": "",
         "entity_type": "TRANS_NAME"
       },
-      "008": {
+      "M008": {
         "sentence_id": "014",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           58,
           61
@@ -339,83 +339,90 @@
       }
     },
     "entities": {
-      "C1": {
+      "E001": {
+        "original_entity_id": "C1",
         "normalized_name": "新宿駅",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/way/116596178",
         "best_ref_query": "新宿駅",
         "member_mention_ids": [
-          "001",
-          "002"
+          "M001",
+          "M002"
         ]
       },
-      "C2": {
+      "E002": {
+        "original_entity_id": "C2",
         "normalized_name": "小田急百貨店新宿店",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/way/67113643",
         "best_ref_query": "小田急百貨店",
         "member_mention_ids": [
-          "004"
+          "M004"
         ]
       },
-      "C3": {
+      "E003": {
+        "original_entity_id": "C3",
         "normalized_name": "中庭",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": true,
         "best_ref_type": "Other_PARTOF",
         "best_ref_url": "https://www.hotespa.net/hotels/setsugetsuka/",
         "best_ref_query": "G: 箱根強羅温泉 季の湯 雪月花",
         "member_mention_ids": [
-          "010"
+          "M010"
         ]
       },
-      "C4": {
+      "E004": {
+        "original_entity_id": "C4",
         "normalized_name": "花鳥",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": true,
         "best_ref_type": "Other_PARTOF",
         "best_ref_url": "https://www.hotespa.net/hotels/setsugetsuka/",
         "best_ref_query": "G: 雪月花　花鳥",
         "member_mention_ids": [
-          "011"
+          "M011"
         ]
       },
-      "C5": {
+      "E005": {
+        "original_entity_id": "C5",
         "normalized_name": "その場",
-        "entity_label_merged": "UNK",
+        "entity_type_merged": "UNK",
         "has_name": false,
         "has_reference": false,
         "member_mention_ids": [
-          "012"
+          "M012"
         ]
       },
-      "C6": {
+      "E006": {
+        "original_entity_id": "C6",
         "normalized_name": "そば屋",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": false,
         "member_mention_ids": [
-          "008"
+          "M008"
         ]
       },
-      "C7": {
+      "E007": {
+        "original_entity_id": "C7",
         "normalized_name": "箱根強羅温泉 季の湯 雪月花",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "Other",
         "best_ref_url": "https://www.hotespa.net/hotels/setsugetsuka/",
         "best_ref_query": "G: 箱根強羅温泉 季の湯 雪月花",
         "member_mention_ids": [
-          "009"
+          "M009"
         ]
       }
     }

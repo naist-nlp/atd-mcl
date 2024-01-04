@@ -53,15 +53,15 @@
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "001",
-          "005"
+          "M001",
+          "M005"
         ]
       },
       "002": {
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "006"
+          "M006"
         ]
       },
       "003": {
@@ -73,7 +73,7 @@
         "section_id": "002",
         "text": "",
         "mention_ids": [
-          "007"
+          "M007"
         ]
       },
       "005-01": {
@@ -107,8 +107,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "002",
-          "010"
+          "M002",
+          "M010"
         ]
       },
       "007-02": {
@@ -124,17 +124,17 @@
         "section_id": "004",
         "text": "",
         "mention_ids": [
-          "003",
-          "008"
+          "M003",
+          "M008"
         ]
       },
       "009": {
         "section_id": "005",
         "text": "",
         "mention_ids": [
-          "004",
-          "009",
-          "020"
+          "M004",
+          "M009",
+          "M020"
         ]
       },
       "010-01": {
@@ -145,10 +145,10 @@
         ],
         "text": "",
         "mention_ids": [
-          "011",
-          "012",
-          "013",
-          "014"
+          "M011",
+          "M012",
+          "M013",
+          "M014"
         ]
       },
       "010-02": {
@@ -159,14 +159,14 @@
         ],
         "text": "",
         "mention_ids": [
-          "015"
+          "M015"
         ]
       },
       "011": {
         "section_id": "006",
         "text": "",
         "mention_ids": [
-          "016"
+          "M016"
         ]
       },
       "012": {
@@ -183,22 +183,22 @@
         "section_id": "007",
         "text": "",
         "mention_ids": [
-          "017",
-          "019"
+          "M017",
+          "M019"
         ]
       },
       "015": {
         "section_id": "007",
         "text": "",
         "mention_ids": [
-          "018"
+          "M018"
         ]
       }
     },
     "mentions": {
-      "001": {
+      "M001": {
         "sentence_id": "001",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           2
@@ -206,9 +206,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "005": {
+      "M005": {
         "sentence_id": "001",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           3,
           9
@@ -216,9 +216,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "006": {
+      "M006": {
         "sentence_id": "002",
-        "entity_id": "C3",
+        "entity_id": "E003",
         "span": [
           14,
           15
@@ -226,9 +226,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "007": {
+      "M007": {
         "sentence_id": "004",
-        "entity_id": "C4",
+        "entity_id": "E004",
         "span": [
           7,
           9
@@ -236,9 +236,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "010": {
+      "M010": {
         "sentence_id": "007-01",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           0,
           2
@@ -246,9 +246,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "002": {
+      "M002": {
         "sentence_id": "007-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           6,
           9
@@ -256,9 +256,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "003": {
+      "M003": {
         "sentence_id": "008",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           0,
           3
@@ -266,9 +266,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "008": {
+      "M008": {
         "sentence_id": "008",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           4,
           5
@@ -276,9 +276,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "020": {
+      "M020": {
         "sentence_id": "009",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           0,
           2
@@ -286,9 +286,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "004": {
+      "M004": {
         "sentence_id": "009",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           3,
           6
@@ -296,9 +296,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "009": {
+      "M009": {
         "sentence_id": "009",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           7,
           9
@@ -306,9 +306,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "011": {
+      "M011": {
         "sentence_id": "010-01",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           9,
           10
@@ -316,9 +316,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "012": {
+      "M012": {
         "sentence_id": "010-01",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           12,
           14
@@ -326,9 +326,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "013": {
+      "M013": {
         "sentence_id": "010-01",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           19,
           20
@@ -336,9 +336,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "014": {
+      "M014": {
         "sentence_id": "010-01",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           23,
           25
@@ -346,9 +346,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "015": {
+      "M015": {
         "sentence_id": "010-02",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           2,
           4
@@ -356,9 +356,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "016": {
+      "M016": {
         "sentence_id": "011",
-        "entity_id": "C8",
+        "entity_id": "E008",
         "span": [
           0,
           3
@@ -366,9 +366,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "019": {
+      "M019": {
         "sentence_id": "014",
-        "entity_id": "C9",
+        "entity_id": "E009",
         "span": [
           6,
           8
@@ -376,9 +376,9 @@
         "text": "",
         "entity_type": "LOC_NOM"
       },
-      "017": {
+      "M017": {
         "sentence_id": "014",
-        "entity_id": "C10",
+        "entity_id": "E010",
         "span": [
           9,
           10
@@ -386,9 +386,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "018": {
+      "M018": {
         "sentence_id": "015",
-        "entity_id": "C10",
+        "entity_id": "E010",
         "span": [
           5,
           6
@@ -398,86 +398,96 @@
       }
     },
     "entities": {
-      "C1": {
-        "entity_label_merged": "LOC",
+      "E001": {
+        "original_entity_id": "C1",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "001"
+          "M001"
         ]
       },
-      "C2": {
-        "entity_label_merged": "UNK",
+      "E002": {
+        "original_entity_id": "C2",
+        "entity_type_merged": "UNK",
         "has_name": false,
         "member_mention_ids": [
-          "005"
+          "M005"
         ]
       },
-      "C3": {
-        "entity_label_merged": "LINE",
+      "E003": {
+        "original_entity_id": "C3",
+        "entity_type_merged": "LINE",
         "has_name": false,
         "member_mention_ids": [
-          "006"
+          "M006"
         ]
       },
-      "C4": {
-        "entity_label_merged": "FAC",
+      "E004": {
+        "original_entity_id": "C4",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "007"
+          "M007"
         ]
       },
-      "C5": {
-        "entity_label_merged": "FAC",
+      "E005": {
+        "original_entity_id": "C5",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "coref_attr_pairs": "T14-T15;T12-T14",
         "member_mention_ids": [
-          "009",
-          "010",
-          "012",
-          "014",
-          "015",
-          "020"
+          "M009",
+          "M010",
+          "M012",
+          "M014",
+          "M015",
+          "M020"
         ]
       },
-      "C6": {
-        "entity_label_merged": "FAC",
+      "E006": {
+        "original_entity_id": "C6",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "002",
-          "003",
-          "004"
+          "M002",
+          "M003",
+          "M004"
         ]
       },
-      "C7": {
-        "entity_label_merged": "FAC",
+      "E007": {
+        "original_entity_id": "C7",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "coref_attr_pairs": "T11-T13",
         "member_mention_ids": [
-          "008",
-          "011",
-          "013"
+          "M008",
+          "M011",
+          "M013"
         ]
       },
-      "C8": {
-        "entity_label_merged": "FAC",
+      "E008": {
+        "original_entity_id": "C8",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "016"
+          "M016"
         ]
       },
-      "C9": {
-        "entity_label_merged": "LOC",
+      "E009": {
+        "original_entity_id": "C9",
+        "entity_type_merged": "LOC",
         "has_name": false,
         "member_mention_ids": [
-          "019"
+          "M019"
         ]
       },
-      "C10": {
-        "entity_label_merged": "LINE",
+      "E010": {
+        "original_entity_id": "C10",
+        "entity_type_merged": "LINE",
         "has_name": false,
         "member_mention_ids": [
-          "017",
-          "018"
+          "M017",
+          "M018"
         ]
       }
     }

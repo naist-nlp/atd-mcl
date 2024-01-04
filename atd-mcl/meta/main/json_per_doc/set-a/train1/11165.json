@@ -153,9 +153,9 @@
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "001",
-          "002",
-          "080"
+          "M001",
+          "M002",
+          "M080"
         ]
       },
       "002": {
@@ -171,10 +171,10 @@
         ],
         "text": "",
         "mention_ids": [
-          "003",
-          "004",
-          "044",
-          "081"
+          "M003",
+          "M004",
+          "M044",
+          "M081"
         ]
       },
       "003-02": {
@@ -185,9 +185,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "005",
-          "045",
-          "094"
+          "M005",
+          "M045",
+          "M094"
         ]
       },
       "004-01": {
@@ -198,8 +198,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "046",
-          "047"
+          "M046",
+          "M047"
         ]
       },
       "004-02": {
@@ -210,7 +210,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "095"
+          "M095"
         ]
       },
       "005-01": {
@@ -221,11 +221,11 @@
         ],
         "text": "",
         "mention_ids": [
-          "006",
-          "007",
-          "048",
-          "049",
-          "111"
+          "M006",
+          "M007",
+          "M048",
+          "M049",
+          "M111"
         ]
       },
       "005-02": {
@@ -236,10 +236,10 @@
         ],
         "text": "",
         "mention_ids": [
-          "050",
-          "051",
-          "118",
-          "119"
+          "M050",
+          "M051",
+          "M118",
+          "M119"
         ]
       },
       "006-01": {
@@ -250,7 +250,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "052"
+          "M052"
         ]
       },
       "006-02": {
@@ -270,7 +270,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "053"
+          "M053"
         ]
       },
       "007-02": {
@@ -299,10 +299,10 @@
         ],
         "text": "",
         "mention_ids": [
-          "008",
-          "009",
-          "055",
-          "057"
+          "M008",
+          "M009",
+          "M055",
+          "M057"
         ]
       },
       "008-02": {
@@ -313,18 +313,18 @@
         ],
         "text": "",
         "mention_ids": [
-          "054"
+          "M054"
         ]
       },
       "009": {
         "section_id": "004",
         "text": "",
         "mention_ids": [
-          "010",
-          "011",
-          "056",
-          "058",
-          "059"
+          "M010",
+          "M011",
+          "M056",
+          "M058",
+          "M059"
         ]
       },
       "010-01": {
@@ -335,9 +335,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "012",
-          "060",
-          "061"
+          "M012",
+          "M060",
+          "M061"
         ]
       },
       "010-02": {
@@ -348,9 +348,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "013",
-          "082",
-          "083"
+          "M013",
+          "M082",
+          "M083"
         ]
       },
       "011-01": {
@@ -361,8 +361,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "014",
-          "084"
+          "M014",
+          "M084"
         ]
       },
       "011-02": {
@@ -373,7 +373,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "015"
+          "M015"
         ]
       },
       "011-03": {
@@ -402,8 +402,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "016",
-          "117"
+          "M016",
+          "M117"
         ]
       },
       "012-03": {
@@ -414,7 +414,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "113"
+          "M113"
         ]
       },
       "012-04": {
@@ -434,8 +434,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "017",
-          "018"
+          "M017",
+          "M018"
         ]
       },
       "013-02": {
@@ -446,7 +446,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "062"
+          "M062"
         ]
       },
       "013-03": {
@@ -466,7 +466,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "096"
+          "M096"
         ]
       },
       "014-01": {
@@ -477,7 +477,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "114"
+          "M114"
         ]
       },
       "014-02": {
@@ -520,8 +520,8 @@
         "section_id": "008",
         "text": "",
         "mention_ids": [
-          "019",
-          "097"
+          "M019",
+          "M097"
         ]
       },
       "017-01": {
@@ -532,9 +532,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "020",
-          "022",
-          "115"
+          "M020",
+          "M022",
+          "M115"
         ]
       },
       "017-02": {
@@ -545,10 +545,10 @@
         ],
         "text": "",
         "mention_ids": [
-          "021",
-          "098",
-          "099",
-          "122"
+          "M021",
+          "M098",
+          "M099",
+          "M122"
         ]
       },
       "018-01": {
@@ -559,8 +559,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "023",
-          "063"
+          "M023",
+          "M063"
         ]
       },
       "018-02": {
@@ -571,8 +571,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "085",
-          "100"
+          "M085",
+          "M100"
         ]
       },
       "019-01": {
@@ -583,10 +583,10 @@
         ],
         "text": "",
         "mention_ids": [
-          "024",
-          "064",
-          "101",
-          "123"
+          "M024",
+          "M064",
+          "M101",
+          "M123"
         ]
       },
       "019-02": {
@@ -597,7 +597,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "086"
+          "M086"
         ]
       },
       "020-01": {
@@ -608,9 +608,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "065",
-          "066",
-          "067"
+          "M065",
+          "M066",
+          "M067"
         ]
       },
       "020-02": {
@@ -621,7 +621,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "025"
+          "M025"
         ]
       },
       "021-01": {
@@ -632,7 +632,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "068"
+          "M068"
         ]
       },
       "021-02": {
@@ -643,15 +643,15 @@
         ],
         "text": "",
         "mention_ids": [
-          "087"
+          "M087"
         ]
       },
       "022": {
         "section_id": "011",
         "text": "",
         "mention_ids": [
-          "026",
-          "112"
+          "M026",
+          "M112"
         ]
       },
       "023-01": {
@@ -662,7 +662,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "088"
+          "M088"
         ]
       },
       "023-02": {
@@ -673,8 +673,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "069",
-          "089"
+          "M069",
+          "M089"
         ]
       },
       "023-03": {
@@ -685,7 +685,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "090"
+          "M090"
         ]
       },
       "024-01": {
@@ -696,9 +696,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "028",
-          "029",
-          "070"
+          "M028",
+          "M029",
+          "M070"
         ]
       },
       "024-02": {
@@ -714,27 +714,27 @@
         "section_id": "012",
         "text": "",
         "mention_ids": [
-          "102",
-          "103"
+          "M102",
+          "M103"
         ]
       },
       "026": {
         "section_id": "013",
         "text": "",
         "mention_ids": [
-          "071",
-          "104",
-          "105"
+          "M071",
+          "M104",
+          "M105"
         ]
       },
       "027": {
         "section_id": "013",
         "text": "",
         "mention_ids": [
-          "030",
-          "031",
-          "091",
-          "120"
+          "M030",
+          "M031",
+          "M091",
+          "M120"
         ]
       },
       "028-01": {
@@ -745,7 +745,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "072"
+          "M072"
         ]
       },
       "028-02": {
@@ -756,28 +756,28 @@
         ],
         "text": "",
         "mention_ids": [
-          "032",
-          "073",
-          "074",
-          "106"
+          "M032",
+          "M073",
+          "M074",
+          "M106"
         ]
       },
       "029": {
         "section_id": "014",
         "text": "",
         "mention_ids": [
-          "107"
+          "M107"
         ]
       },
       "030": {
         "section_id": "015",
         "text": "",
         "mention_ids": [
-          "033",
-          "034",
-          "075",
-          "076",
-          "108"
+          "M033",
+          "M034",
+          "M075",
+          "M076",
+          "M108"
         ]
       },
       "031-01": {
@@ -797,7 +797,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "035"
+          "M035"
         ]
       },
       "031-03": {
@@ -808,7 +808,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "092"
+          "M092"
         ]
       },
       "032-01": {
@@ -819,7 +819,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "036"
+          "M036"
         ]
       },
       "032-02": {
@@ -830,8 +830,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "077",
-          "109"
+          "M077",
+          "M109"
         ]
       },
       "033-01": {
@@ -842,9 +842,9 @@
         ],
         "text": "",
         "mention_ids": [
-          "037",
-          "116",
-          "121"
+          "M037",
+          "M116",
+          "M121"
         ]
       },
       "033-02": {
@@ -855,7 +855,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "078"
+          "M078"
         ]
       },
       "034-01": {
@@ -866,8 +866,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "038",
-          "039"
+          "M038",
+          "M039"
         ]
       },
       "034-02": {
@@ -887,7 +887,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "079"
+          "M079"
         ]
       },
       "035-01": {
@@ -912,16 +912,16 @@
         "section_id": "018",
         "text": "",
         "mention_ids": [
-          "040"
+          "M040"
         ]
       },
       "037": {
         "section_id": "018",
         "text": "",
         "mention_ids": [
-          "027",
-          "041",
-          "042"
+          "M027",
+          "M041",
+          "M042"
         ]
       },
       "038-01": {
@@ -932,8 +932,8 @@
         ],
         "text": "",
         "mention_ids": [
-          "043",
-          "093"
+          "M043",
+          "M093"
         ]
       },
       "038-02": {
@@ -944,14 +944,14 @@
         ],
         "text": "",
         "mention_ids": [
-          "110"
+          "M110"
         ]
       }
     },
     "mentions": {
-      "001": {
+      "M001": {
         "sentence_id": "001",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           3
@@ -959,9 +959,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "080": {
+      "M080": {
         "sentence_id": "001",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           20,
           22
@@ -969,9 +969,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "002": {
+      "M002": {
         "sentence_id": "001",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           23,
           28
@@ -979,9 +979,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "003": {
+      "M003": {
         "sentence_id": "003-01",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           2
@@ -989,9 +989,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "081": {
+      "M081": {
         "sentence_id": "003-01",
-        "entity_id": "C3",
+        "entity_id": "E003",
         "span": [
           3,
           5
@@ -999,9 +999,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "004": {
+      "M004": {
         "sentence_id": "003-01",
-        "entity_id": "C4",
+        "entity_id": "E004",
         "span": [
           9,
           11
@@ -1009,9 +1009,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "044": {
+      "M044": {
         "sentence_id": "003-01",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           23,
           29
@@ -1019,9 +1019,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "005": {
+      "M005": {
         "sentence_id": "003-02",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           26,
           29
@@ -1029,9 +1029,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "094": {
+      "M094": {
         "sentence_id": "003-02",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           31,
           33
@@ -1039,9 +1039,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "045": {
+      "M045": {
         "sentence_id": "003-02",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           38,
           40
@@ -1049,9 +1049,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "046": {
+      "M046": {
         "sentence_id": "004-01",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           5,
           7
@@ -1059,9 +1059,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "047": {
+      "M047": {
         "sentence_id": "004-01",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           19,
           23
@@ -1069,9 +1069,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "095": {
+      "M095": {
         "sentence_id": "004-02",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           3,
           7
@@ -1079,9 +1079,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "111": {
+      "M111": {
         "sentence_id": "005-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           0,
           2
@@ -1089,9 +1089,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "006": {
+      "M006": {
         "sentence_id": "005-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           3,
           6
@@ -1099,9 +1099,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "007": {
+      "M007": {
         "sentence_id": "005-01",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           9,
           12
@@ -1109,9 +1109,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "049": {
+      "M049": {
         "sentence_id": "005-01",
-        "entity_id": "C8",
+        "entity_id": "E008",
         "span": [
           18,
           23
@@ -1119,9 +1119,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "048": {
+      "M048": {
         "sentence_id": "005-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           36,
           38
@@ -1129,9 +1129,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "050": {
+      "M050": {
         "sentence_id": "005-02",
-        "entity_id": "C9",
+        "entity_id": "E009",
         "span": [
           11,
           13
@@ -1139,9 +1139,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "118": {
+      "M118": {
         "sentence_id": "005-02",
-        "entity_id": "C9",
+        "entity_id": "E009",
         "span": [
           15,
           20
@@ -1149,9 +1149,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "119": {
+      "M119": {
         "sentence_id": "005-02",
-        "entity_id": "C10",
+        "entity_id": "E010",
         "span": [
           21,
           23
@@ -1159,9 +1159,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "051": {
+      "M051": {
         "sentence_id": "005-02",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           38,
           40
@@ -1169,9 +1169,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "052": {
+      "M052": {
         "sentence_id": "006-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           12,
           14
@@ -1179,9 +1179,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "053": {
+      "M053": {
         "sentence_id": "007-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           35,
           37
@@ -1189,9 +1189,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "055": {
+      "M055": {
         "sentence_id": "008-01",
-        "entity_id": "C11",
+        "entity_id": "E011",
         "span": [
           0,
           2
@@ -1199,9 +1199,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "008": {
+      "M008": {
         "sentence_id": "008-01",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           4,
           7
@@ -1209,9 +1209,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "057": {
+      "M057": {
         "sentence_id": "008-01",
-        "entity_id": "C11",
+        "entity_id": "E011",
         "span": [
           11,
           16
@@ -1219,9 +1219,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "009": {
+      "M009": {
         "sentence_id": "008-01",
-        "entity_id": "C11",
+        "entity_id": "E011",
         "span": [
           20,
           24
@@ -1229,9 +1229,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "054": {
+      "M054": {
         "sentence_id": "008-02",
-        "entity_id": "C11",
+        "entity_id": "E011",
         "span": [
           12,
           13
@@ -1239,9 +1239,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "010": {
+      "M010": {
         "sentence_id": "009",
-        "entity_id": "C12",
+        "entity_id": "E012",
         "span": [
           0,
           2
@@ -1249,9 +1249,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "058": {
+      "M058": {
         "sentence_id": "009",
-        "entity_id": "C13",
+        "entity_id": "E013",
         "span": [
           3,
           5
@@ -1259,9 +1259,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "011": {
+      "M011": {
         "sentence_id": "009",
-        "entity_id": "C14",
+        "entity_id": "E014",
         "span": [
           21,
           23
@@ -1269,9 +1269,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "059": {
+      "M059": {
         "sentence_id": "009",
-        "entity_id": "C15",
+        "entity_id": "E015",
         "span": [
           25,
           30
@@ -1280,9 +1280,9 @@
         "entity_type": "FAC_NOM",
         "ref_hie_amb": true
       },
-      "056": {
+      "M056": {
         "sentence_id": "009",
-        "entity_id": "C11",
+        "entity_id": "E011",
         "span": [
           48,
           50
@@ -1290,9 +1290,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "012": {
+      "M012": {
         "sentence_id": "010-01",
-        "entity_id": "C16",
+        "entity_id": "E016",
         "span": [
           3,
           7
@@ -1300,9 +1300,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "060": {
+      "M060": {
         "sentence_id": "010-01",
-        "entity_id": "C17",
+        "entity_id": "E017",
         "span": [
           20,
           25
@@ -1310,9 +1310,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "061": {
+      "M061": {
         "sentence_id": "010-01",
-        "entity_id": "C16",
+        "entity_id": "E016",
         "span": [
           29,
           31
@@ -1320,9 +1320,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "082": {
+      "M082": {
         "sentence_id": "010-02",
-        "entity_id": "C17",
+        "entity_id": "E017",
         "span": [
           3,
           4
@@ -1330,9 +1330,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "083": {
+      "M083": {
         "sentence_id": "010-02",
-        "entity_id": "C16",
+        "entity_id": "E016",
         "span": [
           11,
           13
@@ -1340,9 +1340,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "013": {
+      "M013": {
         "sentence_id": "010-02",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           16,
           19
@@ -1350,9 +1350,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "014": {
+      "M014": {
         "sentence_id": "011-01",
-        "entity_id": "C18",
+        "entity_id": "E018",
         "span": [
           16,
           21
@@ -1360,9 +1360,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "084": {
+      "M084": {
         "sentence_id": "011-01",
-        "entity_id": "C19",
+        "entity_id": "E019",
         "span": [
           32,
           34
@@ -1370,9 +1370,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "015": {
+      "M015": {
         "sentence_id": "011-02",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           1,
           7
@@ -1380,9 +1380,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "117": {
+      "M117": {
         "sentence_id": "012-02",
-        "entity_id": "C20",
+        "entity_id": "E020",
         "span": [
           2,
           4
@@ -1390,9 +1390,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "016": {
+      "M016": {
         "sentence_id": "012-02",
-        "entity_id": "C16",
+        "entity_id": "E016",
         "span": [
           8,
           12
@@ -1400,9 +1400,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "113": {
+      "M113": {
         "sentence_id": "012-03",
-        "entity_id": "C20",
+        "entity_id": "E020",
         "span": [
           11,
           13
@@ -1410,9 +1410,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "017": {
+      "M017": {
         "sentence_id": "013-01",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           3,
           5
@@ -1420,9 +1420,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "018": {
+      "M018": {
         "sentence_id": "013-01",
-        "entity_id": "C21",
+        "entity_id": "E021",
         "span": [
           14,
           20
@@ -1430,9 +1430,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "062": {
+      "M062": {
         "sentence_id": "013-02",
-        "entity_id": "C21",
+        "entity_id": "E021",
         "span": [
           0,
           2
@@ -1440,9 +1440,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "096": {
+      "M096": {
         "sentence_id": "013-04",
-        "entity_id": "C21",
+        "entity_id": "E021",
         "span": [
           23,
           25
@@ -1450,9 +1450,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "114": {
+      "M114": {
         "sentence_id": "014-01",
-        "entity_id": "C21",
+        "entity_id": "E021",
         "span": [
           31,
           33
@@ -1460,9 +1460,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "097": {
+      "M097": {
         "sentence_id": "016",
-        "entity_id": "C22",
+        "entity_id": "E022",
         "span": [
           4,
           6
@@ -1470,9 +1470,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "019": {
+      "M019": {
         "sentence_id": "016",
-        "entity_id": "C21",
+        "entity_id": "E021",
         "span": [
           8,
           18
@@ -1480,9 +1480,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "020": {
+      "M020": {
         "sentence_id": "017-01",
-        "entity_id": "C23",
+        "entity_id": "E023",
         "span": [
           0,
           2
@@ -1490,9 +1490,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "022": {
+      "M022": {
         "sentence_id": "017-01",
-        "entity_id": "C24",
+        "entity_id": "E024",
         "span": [
           8,
           10
@@ -1500,9 +1500,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "115": {
+      "M115": {
         "sentence_id": "017-01",
-        "entity_id": "C24",
+        "entity_id": "E024",
         "span": [
           11,
           14
@@ -1510,9 +1510,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "021": {
+      "M021": {
         "sentence_id": "017-02",
-        "entity_id": "C25",
+        "entity_id": "E025",
         "span": [
           0,
           2
@@ -1520,9 +1520,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "122": {
+      "M122": {
         "sentence_id": "017-02",
-        "entity_id": "C26",
+        "entity_id": "E026",
         "span": [
           8,
           11
@@ -1530,9 +1530,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "098": {
+      "M098": {
         "sentence_id": "017-02",
-        "entity_id": "C26",
+        "entity_id": "E026",
         "span": [
           17,
           20
@@ -1540,9 +1540,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "099": {
+      "M099": {
         "sentence_id": "017-02",
-        "entity_id": "C26",
+        "entity_id": "E026",
         "span": [
           23,
           25
@@ -1550,9 +1550,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "023": {
+      "M023": {
         "sentence_id": "018-01",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           2
@@ -1560,9 +1560,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "063": {
+      "M063": {
         "sentence_id": "018-01",
-        "entity_id": "C24",
+        "entity_id": "E024",
         "span": [
           35,
           37
@@ -1570,9 +1570,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "085": {
+      "M085": {
         "sentence_id": "018-02",
-        "entity_id": "C27",
+        "entity_id": "E027",
         "span": [
           12,
           14
@@ -1580,9 +1580,9 @@
         "text": "",
         "entity_type": "LOC_NOM"
       },
-      "100": {
+      "M100": {
         "sentence_id": "018-02",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           19,
           23
@@ -1590,9 +1590,9 @@
         "text": "",
         "entity_type": "LOC_NOM"
       },
-      "024": {
+      "M024": {
         "sentence_id": "019-01",
-        "entity_id": "C23",
+        "entity_id": "E023",
         "span": [
           0,
           2
@@ -1600,9 +1600,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "064": {
+      "M064": {
         "sentence_id": "019-01",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           4,
           11
@@ -1610,9 +1610,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "123": {
+      "M123": {
         "sentence_id": "019-01",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           18,
           21
@@ -1620,9 +1620,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "101": {
+      "M101": {
         "sentence_id": "019-01",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           22,
           25
@@ -1630,9 +1630,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "086": {
+      "M086": {
         "sentence_id": "019-02",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           7,
           8
@@ -1640,9 +1640,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "065": {
+      "M065": {
         "sentence_id": "020-01",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           3,
           4
@@ -1650,9 +1650,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "066": {
+      "M066": {
         "sentence_id": "020-01",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           12,
           13
@@ -1660,9 +1660,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "067": {
+      "M067": {
         "sentence_id": "020-01",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           41,
           42
@@ -1670,9 +1670,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "025": {
+      "M025": {
         "sentence_id": "020-02",
-        "entity_id": "C28",
+        "entity_id": "E028",
         "span": [
           19,
           22
@@ -1680,9 +1680,9 @@
         "text": "",
         "entity_type": "LINE_NAME"
       },
-      "068": {
+      "M068": {
         "sentence_id": "021-01",
-        "entity_id": "C29",
+        "entity_id": "E029",
         "span": [
           0,
           2
@@ -1690,9 +1690,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "087": {
+      "M087": {
         "sentence_id": "021-02",
-        "entity_id": "C29",
+        "entity_id": "E029",
         "span": [
           0,
           2
@@ -1700,9 +1700,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "026": {
+      "M026": {
         "sentence_id": "022",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           2,
           4
@@ -1710,9 +1710,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "112": {
+      "M112": {
         "sentence_id": "022",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           43,
           44
@@ -1720,7 +1720,7 @@
         "text": "",
         "entity_type": "LOC_NOM"
       },
-      "088": {
+      "M088": {
         "sentence_id": "023-01",
         "entity_id": null,
         "span": [
@@ -1731,9 +1731,9 @@
         "entity_type": "FAC_NOM",
         "generic": true
       },
-      "089": {
+      "M089": {
         "sentence_id": "023-02",
-        "entity_id": "C29",
+        "entity_id": "E029",
         "span": [
           9,
           11
@@ -1741,9 +1741,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "069": {
+      "M069": {
         "sentence_id": "023-02",
-        "entity_id": "C29",
+        "entity_id": "E029",
         "span": [
           12,
           15
@@ -1751,9 +1751,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "090": {
+      "M090": {
         "sentence_id": "023-03",
-        "entity_id": "C29",
+        "entity_id": "E029",
         "span": [
           23,
           25
@@ -1761,9 +1761,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "028": {
+      "M028": {
         "sentence_id": "024-01",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           8,
           11
@@ -1771,9 +1771,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "029": {
+      "M029": {
         "sentence_id": "024-01",
-        "entity_id": "C30",
+        "entity_id": "E030",
         "span": [
           12,
           20
@@ -1781,9 +1781,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "070": {
+      "M070": {
         "sentence_id": "024-01",
-        "entity_id": "C31",
+        "entity_id": "E031",
         "span": [
           39,
           42
@@ -1791,9 +1791,9 @@
         "text": "",
         "entity_type": "LINE_NOM"
       },
-      "103": {
+      "M103": {
         "sentence_id": "025",
-        "entity_id": "C32",
+        "entity_id": "E032",
         "span": [
           15,
           17
@@ -1801,9 +1801,9 @@
         "text": "",
         "entity_type": "LOC_NOM"
       },
-      "102": {
+      "M102": {
         "sentence_id": "025",
-        "entity_id": "C30",
+        "entity_id": "E030",
         "span": [
           26,
           29
@@ -1811,9 +1811,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "071": {
+      "M071": {
         "sentence_id": "026",
-        "entity_id": "C33",
+        "entity_id": "E033",
         "span": [
           12,
           14
@@ -1821,9 +1821,9 @@
         "text": "",
         "entity_type": "LOC_NOM"
       },
-      "104": {
+      "M104": {
         "sentence_id": "026",
-        "entity_id": "C33",
+        "entity_id": "E033",
         "span": [
           19,
           23
@@ -1831,9 +1831,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "105": {
+      "M105": {
         "sentence_id": "026",
-        "entity_id": "C34",
+        "entity_id": "E034",
         "span": [
           54,
           55
@@ -1841,9 +1841,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "031": {
+      "M031": {
         "sentence_id": "027",
-        "entity_id": "C35",
+        "entity_id": "E035",
         "span": [
           10,
           13
@@ -1851,9 +1851,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "030": {
+      "M030": {
         "sentence_id": "027",
-        "entity_id": "C35",
+        "entity_id": "E035",
         "span": [
           15,
           31
@@ -1861,9 +1861,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "120": {
+      "M120": {
         "sentence_id": "027",
-        "entity_id": "C35",
+        "entity_id": "E035",
         "span": [
           33,
           37
@@ -1871,9 +1871,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "091": {
+      "M091": {
         "sentence_id": "027",
-        "entity_id": "C35",
+        "entity_id": "E035",
         "span": [
           64,
           70
@@ -1881,9 +1881,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "072": {
+      "M072": {
         "sentence_id": "028-01",
-        "entity_id": "C36",
+        "entity_id": "E036",
         "span": [
           1,
           9
@@ -1891,9 +1891,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "073": {
+      "M073": {
         "sentence_id": "028-02",
-        "entity_id": "C36",
+        "entity_id": "E036",
         "span": [
           0,
           2
@@ -1901,9 +1901,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "032": {
+      "M032": {
         "sentence_id": "028-02",
-        "entity_id": "C37",
+        "entity_id": "E037",
         "span": [
           12,
           18
@@ -1911,9 +1911,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "106": {
+      "M106": {
         "sentence_id": "028-02",
-        "entity_id": "C36",
+        "entity_id": "E036",
         "span": [
           23,
           25
@@ -1921,9 +1921,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "074": {
+      "M074": {
         "sentence_id": "028-02",
-        "entity_id": "C36",
+        "entity_id": "E036",
         "span": [
           29,
           33
@@ -1931,9 +1931,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "107": {
+      "M107": {
         "sentence_id": "029",
-        "entity_id": "C36",
+        "entity_id": "E036",
         "span": [
           11,
           13
@@ -1941,9 +1941,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "075": {
+      "M075": {
         "sentence_id": "030",
-        "entity_id": "C38",
+        "entity_id": "E038",
         "span": [
           0,
           2
@@ -1951,9 +1951,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "033": {
+      "M033": {
         "sentence_id": "030",
-        "entity_id": "C37",
+        "entity_id": "E037",
         "span": [
           4,
           10
@@ -1961,9 +1961,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "108": {
+      "M108": {
         "sentence_id": "030",
-        "entity_id": "C39",
+        "entity_id": "E039",
         "span": [
           12,
           16
@@ -1971,9 +1971,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "076": {
+      "M076": {
         "sentence_id": "030",
-        "entity_id": "C40",
+        "entity_id": "E040",
         "span": [
           20,
           23
@@ -1981,9 +1981,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "034": {
+      "M034": {
         "sentence_id": "030",
-        "entity_id": "C41",
+        "entity_id": "E041",
         "span": [
           26,
           32
@@ -1991,9 +1991,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "035": {
+      "M035": {
         "sentence_id": "031-02",
-        "entity_id": "C41",
+        "entity_id": "E041",
         "span": [
           3,
           9
@@ -2001,9 +2001,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "092": {
+      "M092": {
         "sentence_id": "031-03",
-        "entity_id": "C41",
+        "entity_id": "E041",
         "span": [
           2,
           4
@@ -2011,9 +2011,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "036": {
+      "M036": {
         "sentence_id": "032-01",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           13,
           17
@@ -2021,9 +2021,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "077": {
+      "M077": {
         "sentence_id": "032-02",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           7,
           9
@@ -2031,9 +2031,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "109": {
+      "M109": {
         "sentence_id": "032-02",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           11,
           12
@@ -2041,9 +2041,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "116": {
+      "M116": {
         "sentence_id": "033-01",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           12,
           14
@@ -2051,9 +2051,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "037": {
+      "M037": {
         "sentence_id": "033-01",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           16,
           32
@@ -2061,9 +2061,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "121": {
+      "M121": {
         "sentence_id": "033-01",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           34,
           38
@@ -2071,9 +2071,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "078": {
+      "M078": {
         "sentence_id": "033-02",
-        "entity_id": "C42",
+        "entity_id": "E042",
         "span": [
           8,
           10
@@ -2081,9 +2081,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "038": {
+      "M038": {
         "sentence_id": "034-01",
-        "entity_id": "C18",
+        "entity_id": "E018",
         "span": [
           0,
           5
@@ -2091,9 +2091,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "039": {
+      "M039": {
         "sentence_id": "034-01",
-        "entity_id": "C43",
+        "entity_id": "E043",
         "span": [
           12,
           20
@@ -2101,9 +2101,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "079": {
+      "M079": {
         "sentence_id": "034-03",
-        "entity_id": "C43",
+        "entity_id": "E043",
         "span": [
           4,
           6
@@ -2111,9 +2111,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "040": {
+      "M040": {
         "sentence_id": "036",
-        "entity_id": "C44",
+        "entity_id": "E044",
         "span": [
           4,
           14
@@ -2121,9 +2121,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "027": {
+      "M027": {
         "sentence_id": "037",
-        "entity_id": "C44",
+        "entity_id": "E044",
         "span": [
           2,
           4
@@ -2131,9 +2131,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "041": {
+      "M041": {
         "sentence_id": "037",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           11,
           16
@@ -2141,9 +2141,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "042": {
+      "M042": {
         "sentence_id": "037",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           59,
           62
@@ -2151,9 +2151,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "043": {
+      "M043": {
         "sentence_id": "038-01",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           1,
           6
@@ -2161,9 +2161,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "093": {
+      "M093": {
         "sentence_id": "038-01",
-        "entity_id": "C44",
+        "entity_id": "E044",
         "span": [
           35,
           37
@@ -2171,9 +2171,9 @@
         "text": "",
         "entity_type": "LOC_OR_FAC"
       },
-      "110": {
+      "M110": {
         "sentence_id": "038-02",
-        "entity_id": "C44",
+        "entity_id": "E044",
         "span": [
           0,
           3
@@ -2183,399 +2183,443 @@
       }
     },
     "entities": {
-      "C1": {
-        "entity_label_merged": "LOC",
+      "E001": {
+        "original_entity_id": "C1",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "001",
-          "003",
-          "013",
-          "015",
-          "017",
-          "023",
-          "026",
-          "028",
-          "042",
-          "100",
-          "112"
+          "M001",
+          "M003",
+          "M013",
+          "M015",
+          "M017",
+          "M023",
+          "M026",
+          "M028",
+          "M042",
+          "M100",
+          "M112"
         ]
       },
-      "C2": {
-        "entity_label_merged": "FAC",
+      "E002": {
+        "original_entity_id": "C2",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "002",
-          "041",
-          "043",
-          "080"
+          "M002",
+          "M041",
+          "M043",
+          "M080"
         ]
       },
-      "C3": {
-        "entity_label_merged": "FAC",
+      "E003": {
+        "original_entity_id": "C3",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "081"
+          "M081"
         ]
       },
-      "C4": {
-        "entity_label_merged": "LOC",
+      "E004": {
+        "original_entity_id": "C4",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "004"
+          "M004"
         ]
       },
-      "C5": {
-        "entity_label_merged": "FAC",
+      "E005": {
+        "original_entity_id": "C5",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T5-T94;T46-T47;T94-T45",
         "member_mention_ids": [
-          "005",
-          "044",
-          "045",
-          "046",
-          "047",
-          "094",
-          "095"
+          "M005",
+          "M044",
+          "M045",
+          "M046",
+          "M047",
+          "M094",
+          "M095"
         ]
       },
-      "C6": {
-        "entity_label_merged": "FAC",
+      "E006": {
+        "original_entity_id": "C6",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "006",
-          "008",
-          "048",
-          "051",
-          "052",
-          "053",
-          "111"
+          "M006",
+          "M008",
+          "M048",
+          "M051",
+          "M052",
+          "M053",
+          "M111"
         ]
       },
-      "C7": {
-        "entity_label_merged": "LOC",
+      "E007": {
+        "original_entity_id": "C7",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "007"
+          "M007"
         ]
       },
-      "C8": {
-        "entity_label_merged": "FAC",
+      "E008": {
+        "original_entity_id": "C8",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "049"
+          "M049"
         ]
       },
-      "C9": {
-        "entity_label_merged": "FAC",
+      "E009": {
+        "original_entity_id": "C9",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T50-T118",
         "member_mention_ids": [
-          "050",
-          "118"
+          "M050",
+          "M118"
         ]
       },
-      "C10": {
-        "entity_label_merged": "FAC",
+      "E010": {
+        "original_entity_id": "C10",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "119"
+          "M119"
         ]
       },
-      "C11": {
-        "entity_label_merged": "FAC",
+      "E011": {
+        "original_entity_id": "C11",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T57-T9",
         "member_mention_ids": [
-          "009",
-          "054",
-          "055",
-          "056",
-          "057"
+          "M009",
+          "M054",
+          "M055",
+          "M056",
+          "M057"
         ]
       },
-      "C12": {
-        "entity_label_merged": "LOC",
+      "E012": {
+        "original_entity_id": "C12",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "010"
+          "M010"
         ]
       },
-      "C13": {
-        "entity_label_merged": "LOC",
+      "E013": {
+        "original_entity_id": "C13",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "058"
+          "M058"
         ]
       },
-      "C14": {
-        "entity_label_merged": "LOC",
+      "E014": {
+        "original_entity_id": "C14",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "011"
+          "M011"
         ]
       },
-      "C15": {
-        "entity_label_merged": "FAC",
+      "E015": {
+        "original_entity_id": "C15",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "059"
+          "M059"
         ]
       },
-      "C16": {
-        "entity_label_merged": "FAC",
+      "E016": {
+        "original_entity_id": "C16",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "012",
-          "016",
-          "061",
-          "083"
+          "M012",
+          "M016",
+          "M061",
+          "M083"
         ]
       },
-      "C17": {
-        "entity_label_merged": "FAC",
+      "E017": {
+        "original_entity_id": "C17",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "060",
-          "082"
+          "M060",
+          "M082"
         ]
       },
-      "C18": {
-        "entity_label_merged": "LOC",
+      "E018": {
+        "original_entity_id": "C18",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "014",
-          "038"
+          "M014",
+          "M038"
         ]
       },
-      "C19": {
-        "entity_label_merged": "LINE",
+      "E019": {
+        "original_entity_id": "C19",
+        "entity_type_merged": "LINE",
         "has_name": false,
         "member_mention_ids": [
-          "084"
+          "M084"
         ]
       },
-      "C20": {
-        "entity_label_merged": "FAC",
+      "E020": {
+        "original_entity_id": "C20",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "113",
-          "117"
+          "M113",
+          "M117"
         ]
       },
-      "C21": {
-        "entity_label_merged": "FAC",
+      "E021": {
+        "original_entity_id": "C21",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "018",
-          "019",
-          "062",
-          "096",
-          "114"
+          "M018",
+          "M019",
+          "M062",
+          "M096",
+          "M114"
         ]
       },
-      "C22": {
-        "entity_label_merged": "UNK",
+      "E022": {
+        "original_entity_id": "C22",
+        "entity_type_merged": "UNK",
         "has_name": false,
         "member_mention_ids": [
-          "097"
+          "M097"
         ]
       },
-      "C23": {
-        "entity_label_merged": "LOC",
+      "E023": {
+        "original_entity_id": "C23",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "020",
-          "024"
+          "M020",
+          "M024"
         ]
       },
-      "C24": {
-        "entity_label_merged": "FAC",
+      "E024": {
+        "original_entity_id": "C24",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T22-T115",
         "member_mention_ids": [
-          "022",
-          "063",
-          "115"
+          "M022",
+          "M063",
+          "M115"
         ]
       },
-      "C25": {
-        "entity_label_merged": "FAC",
+      "E025": {
+        "original_entity_id": "C25",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "021"
+          "M021"
         ]
       },
-      "C26": {
-        "entity_label_merged": "FAC",
+      "E026": {
+        "original_entity_id": "C26",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "coref_attr_pairs": "T98-T99;T122-T98",
         "member_mention_ids": [
-          "098",
-          "099",
-          "122"
+          "M098",
+          "M099",
+          "M122"
         ]
       },
-      "C27": {
-        "entity_label_merged": "LOC",
+      "E027": {
+        "original_entity_id": "C27",
+        "entity_type_merged": "LOC",
         "has_name": false,
         "member_mention_ids": [
-          "085"
+          "M085"
         ]
       },
-      "C28": {
-        "entity_label_merged": "MIX",
+      "E028": {
+        "original_entity_id": "C28",
+        "entity_type_merged": "MIX",
         "has_name": true,
         "coref_attr_pairs": "T64-T123;T123-T101",
         "member_mention_ids": [
-          "025",
-          "064",
-          "065",
-          "066",
-          "067",
-          "086",
-          "101",
-          "123"
+          "M025",
+          "M064",
+          "M065",
+          "M066",
+          "M067",
+          "M086",
+          "M101",
+          "M123"
         ]
       },
-      "C29": {
-        "entity_label_merged": "FAC",
+      "E029": {
+        "original_entity_id": "C29",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "068",
-          "069",
-          "087",
-          "089",
-          "090"
+          "M068",
+          "M069",
+          "M087",
+          "M089",
+          "M090"
         ]
       },
-      "C30": {
-        "entity_label_merged": "LOC",
+      "E030": {
+        "original_entity_id": "C30",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "029",
-          "102"
+          "M029",
+          "M102"
         ]
       },
-      "C31": {
-        "entity_label_merged": "LINE",
+      "E031": {
+        "original_entity_id": "C31",
+        "entity_type_merged": "LINE",
         "has_name": false,
         "member_mention_ids": [
-          "070"
+          "M070"
         ]
       },
-      "C32": {
-        "entity_label_merged": "LOC",
+      "E032": {
+        "original_entity_id": "C32",
+        "entity_type_merged": "LOC",
         "has_name": false,
         "member_mention_ids": [
-          "103"
+          "M103"
         ]
       },
-      "C33": {
-        "entity_label_merged": "LOC",
+      "E033": {
+        "original_entity_id": "C33",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "member_mention_ids": [
-          "071",
-          "104"
+          "M071",
+          "M104"
         ]
       },
-      "C34": {
-        "entity_label_merged": "FAC",
+      "E034": {
+        "original_entity_id": "C34",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "105"
+          "M105"
         ]
       },
-      "C35": {
-        "entity_label_merged": "FAC",
+      "E035": {
+        "original_entity_id": "C35",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T31-T30",
         "member_mention_ids": [
-          "030",
-          "031",
-          "091",
-          "120"
+          "M030",
+          "M031",
+          "M091",
+          "M120"
         ]
       },
-      "C36": {
-        "entity_label_merged": "FAC",
+      "E036": {
+        "original_entity_id": "C36",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T106-T74",
         "member_mention_ids": [
-          "072",
-          "073",
-          "074",
-          "106",
-          "107"
+          "M072",
+          "M073",
+          "M074",
+          "M106",
+          "M107"
         ]
       },
-      "C37": {
-        "entity_label_merged": "FAC",
+      "E037": {
+        "original_entity_id": "C37",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "032",
-          "033"
+          "M032",
+          "M033"
         ]
       },
-      "C38": {
-        "entity_label_merged": "UNK",
+      "E038": {
+        "original_entity_id": "C38",
+        "entity_type_merged": "UNK",
         "has_name": false,
         "member_mention_ids": [
-          "075"
+          "M075"
         ]
       },
-      "C39": {
-        "entity_label_merged": "FAC",
+      "E039": {
+        "original_entity_id": "C39",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "member_mention_ids": [
-          "108"
+          "M108"
         ]
       },
-      "C40": {
-        "entity_label_merged": "FAC",
+      "E040": {
+        "original_entity_id": "C40",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "076"
+          "M076"
         ]
       },
-      "C41": {
-        "entity_label_merged": "FAC",
+      "E041": {
+        "original_entity_id": "C41",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "034",
-          "035",
-          "092"
+          "M034",
+          "M035",
+          "M092"
         ]
       },
-      "C42": {
-        "entity_label_merged": "FAC",
+      "E042": {
+        "original_entity_id": "C42",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T116-T37;T77-T109",
         "member_mention_ids": [
-          "036",
-          "037",
-          "077",
-          "078",
-          "109",
-          "116",
-          "121"
+          "M036",
+          "M037",
+          "M077",
+          "M078",
+          "M109",
+          "M116",
+          "M121"
         ]
       },
-      "C43": {
-        "entity_label_merged": "FAC",
+      "E043": {
+        "original_entity_id": "C43",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "039",
-          "079"
+          "M039",
+          "M079"
         ]
       },
-      "C44": {
-        "entity_label_merged": "FAC",
+      "E044": {
+        "original_entity_id": "C44",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "member_mention_ids": [
-          "027",
-          "040",
-          "093",
-          "110"
+          "M027",
+          "M040",
+          "M093",
+          "M110"
         ]
       }
     }

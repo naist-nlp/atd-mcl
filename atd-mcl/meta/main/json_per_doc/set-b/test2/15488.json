@@ -235,7 +235,7 @@
         "section_id": "010",
         "text": "",
         "mention_ids": [
-          "002"
+          "M002"
         ]
       },
       "018": {
@@ -270,7 +270,7 @@
         "section_id": "013",
         "text": "",
         "mention_ids": [
-          "003"
+          "M003"
         ]
       },
       "022": {
@@ -391,9 +391,9 @@
       }
     },
     "mentions": {
-      "002": {
+      "M002": {
         "sentence_id": "017",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           6
@@ -401,9 +401,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "003": {
+      "M003": {
         "sentence_id": "021",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           0,
           4
@@ -413,22 +413,24 @@
       }
     },
     "entities": {
-      "C1": {
+      "E001": {
+        "original_entity_id": "C1",
         "normalized_name": "イマジンさん",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": false,
         "member_mention_ids": [
-          "002"
+          "M002"
         ]
       },
-      "C2": {
+      "E002": {
+        "original_entity_id": "C2",
         "normalized_name": "ゴンドラ",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": false,
         "member_mention_ids": [
-          "003"
+          "M003"
         ]
       }
     }

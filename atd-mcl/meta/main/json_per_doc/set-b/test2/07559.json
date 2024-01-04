@@ -60,7 +60,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "001"
+          "M001"
         ]
       },
       "001-02": {
@@ -76,8 +76,8 @@
         "section_id": "001",
         "text": "",
         "mention_ids": [
-          "006",
-          "014"
+          "M006",
+          "M014"
         ]
       },
       "003": {
@@ -94,8 +94,8 @@
         "section_id": "002",
         "text": "",
         "mention_ids": [
-          "007",
-          "008"
+          "M007",
+          "M008"
         ]
       },
       "006-01": {
@@ -124,7 +124,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "009"
+          "M009"
         ]
       },
       "007-01": {
@@ -190,7 +190,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "003"
+          "M003"
         ]
       },
       "011-03": {
@@ -279,9 +279,9 @@
         "section_id": "004",
         "text": "",
         "mention_ids": [
-          "002",
-          "004",
-          "005"
+          "M002",
+          "M004",
+          "M005"
         ]
       },
       "018-01": {
@@ -301,7 +301,7 @@
         ],
         "text": "",
         "mention_ids": [
-          "010"
+          "M010"
         ]
       },
       "019": {
@@ -326,14 +326,14 @@
         ],
         "text": "",
         "mention_ids": [
-          "011"
+          "M011"
         ]
       }
     },
     "mentions": {
-      "001": {
+      "M001": {
         "sentence_id": "001-01",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           8,
           11
@@ -341,9 +341,9 @@
         "text": "",
         "entity_type": "LOC_NAME"
       },
-      "014": {
+      "M014": {
         "sentence_id": "002",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           0,
           2
@@ -351,9 +351,9 @@
         "text": "",
         "entity_type": "DEICTIC"
       },
-      "006": {
+      "M006": {
         "sentence_id": "002",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           3,
           8
@@ -361,9 +361,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "007": {
+      "M007": {
         "sentence_id": "005",
-        "entity_id": "C3",
+        "entity_id": "E003",
         "span": [
           3,
           9
@@ -371,9 +371,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "008": {
+      "M008": {
         "sentence_id": "005",
-        "entity_id": "C4",
+        "entity_id": "E004",
         "span": [
           10,
           19
@@ -381,9 +381,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "009": {
+      "M009": {
         "sentence_id": "006-03",
-        "entity_id": "C5",
+        "entity_id": "E005",
         "span": [
           0,
           3
@@ -391,7 +391,7 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "003": {
+      "M003": {
         "sentence_id": "011-02",
         "entity_id": null,
         "span": [
@@ -402,9 +402,9 @@
         "entity_type": "FAC_NOM",
         "generic": true
       },
-      "004": {
+      "M004": {
         "sentence_id": "017",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           0,
           5
@@ -412,9 +412,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "005": {
+      "M005": {
         "sentence_id": "017",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           14,
           17
@@ -422,9 +422,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "002": {
+      "M002": {
         "sentence_id": "017",
-        "entity_id": "C6",
+        "entity_id": "E006",
         "span": [
           27,
           33
@@ -432,9 +432,9 @@
         "text": "",
         "entity_type": "FAC_NOM"
       },
-      "010": {
+      "M010": {
         "sentence_id": "018-02",
-        "entity_id": "C2",
+        "entity_id": "E002",
         "span": [
           9,
           14
@@ -442,9 +442,9 @@
         "text": "",
         "entity_type": "FAC_NAME"
       },
-      "011": {
+      "M011": {
         "sentence_id": "020-02",
-        "entity_id": "C7",
+        "entity_id": "E007",
         "span": [
           4,
           7
@@ -454,21 +454,23 @@
       }
     },
     "entities": {
-      "C1": {
+      "E001": {
+        "original_entity_id": "C1",
         "normalized_name": "高松市",
-        "entity_label_merged": "LOC",
+        "entity_type_merged": "LOC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/relation/4051287",
         "best_ref_query": "高松市",
         "member_mention_ids": [
-          "001"
+          "M001"
         ]
       },
-      "C2": {
+      "E002": {
+        "original_entity_id": "C2",
         "normalized_name": "山下うどん",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
@@ -478,62 +480,67 @@
         "second_A_ref_url": "https://www.openstreetmap.org/node/3086808765",
         "second_A_ref_query": "山下うどん",
         "member_mention_ids": [
-          "006",
-          "010",
-          "014"
+          "M006",
+          "M010",
+          "M014"
         ]
       },
-      "C3": {
+      "E003": {
+        "original_entity_id": "C3",
         "normalized_name": "ニューレオマワールド",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
         "best_ref_url": "https://www.openstreetmap.org/way/539540719",
         "best_ref_query": "ニューレオマワールド",
         "member_mention_ids": [
-          "007"
+          "M007"
         ]
       },
-      "C4": {
+      "E004": {
+        "original_entity_id": "C4",
         "normalized_name": "トミカプラレール館",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": false,
         "member_mention_ids": [
-          "008"
+          "M008"
         ]
       },
-      "C5": {
+      "E005": {
+        "original_entity_id": "C5",
         "normalized_name": "遊園地",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": false,
         "member_mention_ids": [
-          "009"
+          "M009"
         ]
       },
-      "C6": {
+      "E006": {
+        "original_entity_id": "C6",
         "normalized_name": "うどん屋さん",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": false,
         "has_reference": false,
         "member_mention_ids": [
-          "002"
+          "M002"
         ]
       },
-      "C7": {
+      "E007": {
+        "original_entity_id": "C7",
         "normalized_name": "ホテルレオマの森",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "Other",
         "best_ref_url": "https://reomanomori.ooedoonsen.jp/",
         "best_ref_query": "G: レオマの森 , レオマ",
         "member_mention_ids": [
-          "004",
-          "005",
-          "011"
+          "M004",
+          "M005",
+          "M011"
         ]
       }
     }
