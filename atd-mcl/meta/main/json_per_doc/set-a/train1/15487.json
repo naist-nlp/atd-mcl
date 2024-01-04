@@ -1989,6 +1989,7 @@
         "original_entity_id": "C1",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M001"
         ]
@@ -1997,6 +1998,7 @@
         "original_entity_id": "C2",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M070",
           "M071",
@@ -2007,6 +2009,7 @@
         "original_entity_id": "C3",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M002",
           "M010",
@@ -2025,6 +2028,7 @@
         "original_entity_id": "C4",
         "entity_type_merged": "LINE",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M003"
         ]
@@ -2033,6 +2037,7 @@
         "original_entity_id": "C5",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M004",
           "M013",
@@ -2045,6 +2050,7 @@
         "original_entity_id": "C6",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M005"
         ]
@@ -2053,6 +2059,7 @@
         "original_entity_id": "C7",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M006",
           "M009"
@@ -2062,6 +2069,7 @@
         "original_entity_id": "C8",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M007"
         ]
@@ -2070,6 +2078,7 @@
         "original_entity_id": "C9",
         "entity_type_merged": "LINE",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M008"
         ]
@@ -2078,6 +2087,7 @@
         "original_entity_id": "C10",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M011"
         ]
@@ -2086,6 +2096,7 @@
         "original_entity_id": "C11",
         "entity_type_merged": "MIX",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M012",
           "M072",
@@ -2096,6 +2107,7 @@
         "original_entity_id": "C12",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M119"
         ]
@@ -2104,6 +2116,7 @@
         "original_entity_id": "C13",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M014",
           "M027",
@@ -2116,6 +2129,7 @@
         "original_entity_id": "C14",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M015"
         ]
@@ -2124,6 +2138,7 @@
         "original_entity_id": "C15",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M016"
         ]
@@ -2132,6 +2147,7 @@
         "original_entity_id": "C16",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M114"
         ]
@@ -2140,6 +2156,7 @@
         "original_entity_id": "C17",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M018"
         ]
@@ -2148,6 +2165,7 @@
         "original_entity_id": "C18",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M017"
         ]
@@ -2156,6 +2174,7 @@
         "original_entity_id": "C19",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M019"
         ]
@@ -2164,6 +2183,7 @@
         "original_entity_id": "C20",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M075"
         ]
@@ -2172,6 +2192,7 @@
         "original_entity_id": "C21",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M020",
           "M076"
@@ -2181,6 +2202,7 @@
         "original_entity_id": "C22",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M024"
         ]
@@ -2189,6 +2211,7 @@
         "original_entity_id": "C23",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M025"
         ]
@@ -2197,6 +2220,7 @@
         "original_entity_id": "C24",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M080",
           "M081"
@@ -2206,6 +2230,7 @@
         "original_entity_id": "C25",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M026",
           "M028"
@@ -2215,6 +2240,7 @@
         "original_entity_id": "C26",
         "entity_type_merged": "LOC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M082"
         ]
@@ -2224,6 +2250,7 @@
         "entity_type_merged": "LINE",
         "has_name": true,
         "coref_attr_pairs": "T30-T83",
+        "has_reference": false,
         "member_mention_ids": [
           "M030",
           "M083"
@@ -2234,6 +2261,7 @@
         "entity_type_merged": "LINE",
         "has_name": true,
         "coref_attr_pairs": "T31-T86",
+        "has_reference": false,
         "member_mention_ids": [
           "M031",
           "M086"
@@ -2243,6 +2271,7 @@
         "original_entity_id": "C29",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M032"
         ]
@@ -2251,6 +2280,7 @@
         "original_entity_id": "C30",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M033"
         ]
@@ -2259,6 +2289,7 @@
         "original_entity_id": "C31",
         "entity_type_merged": "UNK",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M089",
           "M091"
@@ -2268,6 +2299,7 @@
         "original_entity_id": "C32",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M036",
           "M038",
@@ -2278,6 +2310,7 @@
         "original_entity_id": "C33",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M035",
           "M037"
@@ -2287,6 +2320,7 @@
         "original_entity_id": "C34",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M090",
           "M093",
@@ -2297,6 +2331,7 @@
         "original_entity_id": "C35",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M095",
           "M099"
@@ -2306,6 +2341,7 @@
         "original_entity_id": "C36",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M039",
           "M042"
@@ -2315,6 +2351,7 @@
         "original_entity_id": "C37",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M040"
         ]
@@ -2323,6 +2360,7 @@
         "original_entity_id": "C38",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M043",
           "M056",
@@ -2334,6 +2372,7 @@
         "original_entity_id": "C39",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M044",
           "M045",
@@ -2347,6 +2386,7 @@
         "original_entity_id": "C40",
         "entity_type_merged": "LOC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M097"
         ]
@@ -2355,6 +2395,7 @@
         "original_entity_id": "C41",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M046"
         ]
@@ -2364,6 +2405,7 @@
         "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T51-T101",
+        "has_reference": false,
         "member_mention_ids": [
           "M051",
           "M101"
@@ -2373,6 +2415,7 @@
         "original_entity_id": "C43",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M102"
         ]
@@ -2381,6 +2424,7 @@
         "original_entity_id": "C44",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M103"
         ]
@@ -2389,6 +2433,7 @@
         "original_entity_id": "C45",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M104"
         ]
@@ -2397,6 +2442,7 @@
         "original_entity_id": "C46",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M055"
         ]
@@ -2405,6 +2451,7 @@
         "original_entity_id": "C47",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M057",
           "M108"
@@ -2414,6 +2461,7 @@
         "original_entity_id": "C48",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M107"
         ]
@@ -2422,6 +2470,7 @@
         "original_entity_id": "C49",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M063",
           "M064",
@@ -2433,6 +2482,7 @@
         "original_entity_id": "C50",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M065"
         ]
@@ -2441,6 +2491,7 @@
         "original_entity_id": "C51",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M066",
           "M069"

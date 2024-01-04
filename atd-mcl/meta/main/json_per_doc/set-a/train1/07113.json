@@ -671,6 +671,7 @@
         "original_entity_id": "C1",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M024",
           "M025"
@@ -681,6 +682,7 @@
         "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T14-T28",
+        "has_reference": false,
         "member_mention_ids": [
           "M001",
           "M002",
@@ -692,6 +694,7 @@
         "original_entity_id": "C3",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M012",
           "M013"
@@ -701,6 +704,7 @@
         "original_entity_id": "C4",
         "entity_type_merged": "UNK",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M026"
         ]
@@ -709,6 +713,7 @@
         "original_entity_id": "C5",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M003"
         ]
@@ -717,6 +722,7 @@
         "original_entity_id": "C6",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M004",
           "M006"
@@ -726,6 +732,7 @@
         "original_entity_id": "C7",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M005",
           "M015"
@@ -735,6 +742,7 @@
         "original_entity_id": "C8",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M016"
         ]
@@ -744,6 +752,7 @@
         "entity_type_merged": "FAC",
         "has_name": true,
         "coref_attr_pairs": "T18-T29",
+        "has_reference": false,
         "member_mention_ids": [
           "M007",
           "M018",
@@ -754,6 +763,7 @@
         "original_entity_id": "C10",
         "entity_type_merged": "FAC",
         "has_name": false,
+        "has_reference": false,
         "member_mention_ids": [
           "M017"
         ]
@@ -762,6 +772,7 @@
         "original_entity_id": "C11",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M008"
         ]
@@ -770,6 +781,7 @@
         "original_entity_id": "C12",
         "entity_type_merged": "LOC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M009",
           "M027"
@@ -780,6 +792,7 @@
         "entity_type_merged": "MIX",
         "has_name": true,
         "coref_attr_pairs": "T20-T22",
+        "has_reference": false,
         "member_mention_ids": [
           "M010",
           "M020",
@@ -790,6 +803,7 @@
         "original_entity_id": "C14",
         "entity_type_merged": "FAC",
         "has_name": true,
+        "has_reference": false,
         "member_mention_ids": [
           "M011"
         ]
