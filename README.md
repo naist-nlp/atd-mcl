@@ -25,13 +25,13 @@ The Set-A data consists of 100 documents annotated only with mention and corefer
 
 We used the following data split in the experiments in [our paper](https://arxiv.org/abs/2305.13844).
 
-|      |Set|#Doc|
-|--    |-- |--  |
-|train1|A  | 100|
-|train2|B  |  10|
-|dev   lB  |  10|
-|test1 |B  |  40|
-|test2 |B  |  40|
+|      |Source set|#Doc|
+|--    |--        |--  |
+|train1|A         | 100|
+|train2|B         |  10|
+|dev   |B         |  10|
+|test1 |B         |  40|
+|test2 |B         |  40|
 
 ## Overview of the JSON Data Format
 
@@ -128,7 +128,7 @@ We used the following data split in the experiments in [our paper](https://arxiv
     "entities": {
       "E001": {
         "original_entity_id": "C1",
-        "entity_label_merged": "FAC",
+        "entity_type_merged": "FAC",
         "has_name": true,
         "has_reference": true,
         "best_ref_type": "OSM",
@@ -143,10 +143,7 @@ We used the following data split in the experiments in [our paper](https://arxiv
 
 ## Detailed Data Specification
 
-TODO
-- entity type labels
-- generic, spec_amb, hie_amb tags
-- (best/second_A/second_B)_ref_*
+See `docs`.
 
 ## Contact
 
