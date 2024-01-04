@@ -2,13 +2,38 @@
 
 ## How to Restore the ATD-MCL Data
 
+1. Install necessary Python libraries, for example, using `pip install -r requirements.txt`.
 1. Obtain the Arukikata Travelogue Dataset (ATD) original data (`data.zip`) from the NII IDR site <https://www.nii.ac.jp/dsc/idr/arukikata/>.
 1. Decompress `data.zip` and then move `data` directory to under `atd` directory (or create a symbolic link to `data` directory in `atd` directory).
-1. Excute `bin/gen_full_data.sh`.
+1. Excute `bin/gen_full_data_json.sh`.
     - The restored data will be placed at `atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc/`.
     - The data used for calculating inter-annotator aggreement scores will be placed at `atd-mcl/full/agreement/`.
+1. Excute `bin/gen_full_data_tsv.sh`.
+    - The restored data will be placed at `atd-mcl/full/main/link_tsv`, `atd-mcl/full/main/link_tsv_per_doc`, `atd-mcl/full/main/mention_tsv`, and `atd-mcl/full/main/mention_tsv_per_doc`.
 
-## Data Format
+## Data Statistics
+
+The Set-A data consists of 100 documents annotated only with mention and coreference information. The Set-B data consists of 100 documents annotated with mention, coreference, and link information. (An entity corresponds to a coreference cluster of mentions.)
+
+|     |#Doc|#Sent |#Word  |#Mention|#Entity|
+|--   |--  |--    |--     |--      |--     |
+|Set-A| 100| 5,949| 85,741|   6,052|  3,131|
+|Set-B| 100| 6,324| 87,074|   6,119|  3,208|
+|Total| 200|12,273|172,815|  12,171|  6,339|
+
+## Official Data Split
+
+We used the following data split in the experiments in [our paper](https://arxiv.org/abs/2305.13844).
+
+|      |Set|#Doc|
+|--    |-- |--  |
+|train1|A  | 100|
+|train2|B  |  10|
+|dev   lB  |  10|
+|test1 |B  |  40|
+|test2 |B  |  40|
+
+## Overview of the JSON Data Format
 
 - A document object value is assosiated with a key that represents the  document ID (e.g., `00019`). Each document object has the sets of `sections`, `sentences`, `mentions`, and `entities`.
    ~~~~
@@ -25,12 +50,12 @@
           },
         },
         "mentions": {
-          "001": {
+          "M001": {
             ...
           },
         },
         "entities": {
-          "C1": {
+          "E001": {
             ...
           }
         }
@@ -58,7 +83,7 @@
         "section_id": "001",
         "text": "奈良公園のアイドル「しか」で~す。",
         "mention_ids": [
-          "001"
+          "M001"
         ]
       },
       ...
@@ -85,9 +110,9 @@
     - A mention object may be associated with an entity.
     ~~~~
     "mentions": {
-      "001": {
+      "M001": {
         "sentence_id": "001",
-        "entity_id": "C1",
+        "entity_id": "E001",
         "span": [
           0,
           4
@@ -101,8 +126,8 @@
     - `has_name` indicates whether at least one member mention's entity type is `*_NAME` or not.
     ~~~~
     "entities": {
-      "C1": {
-        "normalized_name": "奈良公園",
+      "E001": {
+        "original_entity_id": "C1",
         "entity_label_merged": "FAC",
         "has_name": true,
         "has_reference": true,
@@ -110,26 +135,27 @@
         "best_ref_url": "https://www.openstreetmap.org/way/456314269",
         "best_ref_query": "奈良公園",
         "member_mention_ids": [
-          "001",
-          "011"
+          "M001",
+          "M011"
         ]
       },
     ~~~~
 
-## Data Specification
+## Detailed Data Specification
 
 TODO
 - entity type labels
 - generic, spec_amb, hie_amb tags
 - (best/second_A/second_B)_ref_*
 
-## Official Data Split
-
 ## Contact
 
-Geography & Language Project <https://sites.google.com/view/geography-and-language>
+- Shohei Higashiyama <shohei.higashiyama [at] nict.go.jp>
+- Hiroki Ouchi <hiroki.ouchi [at] is.naist.jp>
 
 ## Acknowledgements
+
+This study was supported by JSPS KAKENHI Grant Number JP22H03648.
 
 ## Citation
 
