@@ -35,6 +35,7 @@ The URL of a geo-DB entry (web page) was assigned to each entity by the followin
 The attribute value of `best_ref_type` (`second_A_ref_type` or `second_B_ref_type`) represents the database site of the referent URL `best_ref_url` (`second_A_ref_url` or `second_B_ref_url`) along with whether the entry exactly matches with or geographically includes (`PARTOF`) the entity's referent location.
 
 |`*_ref_type` Tag|Description|
+|--|--|
 |`OSM`/`OSM_PARTOF`|OpenStreetMap entry|
 |`WD`/`WD_PARTOF` |Wikidata entry|
 |`WP`/`WP_PARTOF` |Wikipedia entry|
