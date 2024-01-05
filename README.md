@@ -165,7 +165,6 @@ The mention TSV data (`atd-mcl/full/main/mention_tsv` and `atd-mcl/full/main/men
 Example:
 ~~~~
 00019	002:004	奈良の有名スポットですよね!	M002,0:2,LOC_NAME,奈良,E002,,,ref_hie_amb;M011,3:9,LOC_OR_FAC,有名スポット,E001,,,
-
 ~~~~
 ### Link TSV Data Format
 
