@@ -33,7 +33,11 @@ We used the following data split in the experiments in [our paper](https://arxiv
 |test1 |B         |  40|
 |test2 |B         |  40|
 
-## Overview of the JSON Data Format
+## Data Format
+
+### JSON Data Format
+
+The JSON data (`atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc`) holds full annotation information as follows.
 
 - A document object value is assosiated with a key that represents the  document ID (e.g., `00019`). Each document object has the sets of `sections`, `sentences`, `mentions`, and `entities`.
    ~~~~
@@ -141,9 +145,48 @@ We used the following data split in the experiments in [our paper](https://arxiv
       },
     ~~~~
 
+### Mention TSV Data Format
+
+The mention TSV data (`atd-mcl/full/main/mention_tsv` and `atd-mcl/full/main/mention_tsv_per_doc`) holds mention-related annotation information as follows.
+
+- 1st column: document_id
+- 2nd column: section_id:sentence_id
+- 3rd column: Sentence `text`
+- 4th column: Mention information with the following elements. Multiple mentions are enumerated with ";".
+  - 1st element: mention_id
+  - 2nd element: `span`
+  - 3rd element: `entity_type`
+  - 4th element: mention `text`
+  - 5th element: `entity_id`
+  - 6th element: `generic`
+  - 7th element: `ref_spec_amb`
+  - 8th element: `ref_hie_amb`
+
+Example:
+~~~~
+00019	002:004	奈良の有名スポットですよね!	M002,0:2,LOC_NAME,奈良,E002,,,ref_hie_amb;M011,3:9,LOC_OR_FAC,有名スポット,E001,,,
+
+~~~~
+### Link TSV Data Format
+
+The link TSV data (`atd-mcl/full/main/link_tsv` and `atd-mcl/full/main/link_tsv_per_doc`) holds link-related annotation information.
+Specifically, entities and their member mentions (except for GENERIC and SPEC_AMB entities/mentions) are listed in TSV rows.
+The column with a non-empty `entity_id` value corresponds to an entity, and the column with a non-empty `mention_id` value corresponds to a member mention of the preceding entity column.
+
+Example:
+
+|#document_id|entity_id|mention_id|best_ref_type|best_ref_url|best_ref_query|best_ref_is_overseas|second_A_ref_type|second_A_ref_url|second_A_ref_query|second_A_ref_is_overseas|second_B_ref_type|second_B_ref_url|second_B_ref_query|second_B_ref_is_overseas|entity_type|span|normalized_name|mention_text|ref_hie_amb|sentence_id|sentence_text|
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+|00019|E002|-|OSM|https://www.openstreetmap.org/relation/3227707|奈良市||OSM|https://www.openstreetmap.org/relation/358631|奈良県||||||LOC|-|奈良|-|-|
+|00019|-|E002:M002|-|-|-|-|-|-|-|-|-|-|-|-|LOC_NAME|0:2|-|奈良|ref_hie_amb|002:004|奈良の有名スポットですよね!|
+
+Notes:
+- `mention_id` column values acutally represent "entity_id:mention_id".
+- `sentence_id` column values acutally represent "section_id:sentence_id".
+
 ## Detailed Data Specification
 
-See `docs`.
+See `docs/data_specification`.
 
 ## Contact
 

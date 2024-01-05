@@ -62,7 +62,7 @@ Mention (mention ID starts with `M`)
 - `text`: The mention text.
 - *`entity_type`: The entity type of the mention.
 
-Entity (mention ID starts with `E`)
+Entity (entity ID starts with `E`)
 - *`normalized_name`: The normalized name of the location to which the entity refers.
 - `entity_type_merged`: The type of the entity automatically derived from the members' entity type.
 - *`member_mention_ids`: The IDs of member mentions of the entity.
