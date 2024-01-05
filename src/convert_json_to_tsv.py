@@ -24,7 +24,7 @@ SPAN      = 'span'
 ENT_TYPE  = 'entity_type'
 GENERIC   = 'generic'
 SPEC_AMB  = 'ref_spec_amb'
-HIER_AMB  = 'ref_hie_amb'
+HIE_AMB  = 'ref_hie_amb'
 
 NORM_NAME       = "normalized_name"
 ENT_TYPE_MRG    = 'entity_type_merged'
@@ -51,7 +51,7 @@ def read_and_write(
 
     fw1 = open(output_tsv1_path, 'w', encoding='utf-8')
     fw2 = open(output_tsv2_path, 'w', encoding='utf-8')
-    fw2.write(f'#doc_id\tent_id\tmen_id\tbest_type\tbest_url\tbest_query\tbest_overseas\tsecond_best_A_type\tsecond_best_A_url\tsecond_best_A_query\tsecond_best_A_overseas\tsecond_best_B_type\tsecond_best_B_url\tsecond_best_B_query\tsecond_best_B_overseas\tent_type\tspan\tnorm_name\tmen_text\tref_hie_amb\tsen_id\tsen_text\n')
+    fw2.write(f'#document_id\tentity_id\tmention_id\t{BEST_REF_TYPE}\t{BEST_REF_URL}\t{BEST_REF_QUERY}\t{BEST_REF_IS_OS}\t{SEC_A_REF_TYPE}\{SEC_A_REF_URL}\t{SEC_A_REF_QUERY}\t{SEC_A_REF_IS_OS}\t{SEC_B_REF_TYPE}\t{SEC_B_REF_URL}\t{SEC_B_REF_QUERY}\t{SEC_B_REF_IS_OS}\t{ENT_TYPE}\t{SPAN}\t{NORM_NAME}\tmention_text\t{HIE_AMB}\t{SEN_ID}\tsentence_text\n')
 
     for doc_id, doc in data.items():
         sentences = doc[SENS]
@@ -71,8 +71,8 @@ def read_and_write(
                 ent_id   = men[ENT_ID]
                 gen      = GENERIC  if GENERIC  in men and men[GENERIC]  else ''
                 spec_amb = SPEC_AMB if SPEC_AMB in men and men[SPEC_AMB] else ''
-                hier_amb = HIER_AMB if HIER_AMB in men and men[HIER_AMB] else ''
-                mention_info_list.append(f'{men_id},{span[0]}:{span[1]},{men_type},{men_text},{ent_id},{gen},{spec_amb},{hier_amb}')
+                hie_amb  = HIE_AMB  if HIE_AMB  in men and men[HIE_AMB]  else ''
+                mention_info_list.append(f'{men_id},{span[0]}:{span[1]},{men_type},{men_text},{ent_id},{gen},{spec_amb},{hie_amb}')
 
             mention_info = ';'.join(mention_info_list)
             fw1.write(f'{doc_id}\t{full_sen_id}\t{sen_text}\t{mention_info}\n')
@@ -112,9 +112,9 @@ def read_and_write(
                 assert gen == ''
                 spec_amb = SPEC_AMB if SPEC_AMB in men and men[SPEC_AMB] else ''
                 assert spec_amb == ''
-                hier_amb = HIER_AMB if HIER_AMB in men and men[HIER_AMB] else ''
+                hie_amb  = HIE_AMB  if HIE_AMB  in men and men[HIE_AMB]  else ''
 
-                fw2.write(f'{doc_id}\t-\t{ent_id}:{men_id}\t-\t-\t-\t-\t-\t-\t-\t-\t-\t-\t-\t-\t{men_type}\t{span[0]}:{span[1]}\t-\t{men_text}\t{hier_amb}\t{full_sen_id}\t{sen_text}\n')
+                fw2.write(f'{doc_id}\t-\t{ent_id}:{men_id}\t-\t-\t-\t-\t-\t-\t-\t-\t-\t-\t-\t-\t{men_type}\t{span[0]}:{span[1]}\t-\t{men_text}\t{hie_amb}\t{full_sen_id}\t{sen_text}\n')
 
     fw1.close()
     fw2.close()
