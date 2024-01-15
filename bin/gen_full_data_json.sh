@@ -20,41 +20,91 @@ python src/restore_full_documents.py \
        -o atd-mcl/full/agreement/json_per_doc
 
 ################################################################
-# Merge multiple docs and save them as a json file of all input docs
+# [split-118] Merge multiple docs and save them as a json file of all input docs
 
-# main set-a train1
+# main split-118 set-a train1
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json_per_doc/set-a/train1 \
-       -o atd-mcl/full/main/json/set-a_train1.json
+       -i atd-mcl/full/main/json_per_doc/set-a \
+       -o atd-mcl/full/main/split-118/json/set-a_train1.json \
+       -tp doc_id_lists/split-118/set-a_train1_ids.txt
 
-# main set-b train2
+# main split-118 set-b train2
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json_per_doc/set-b/train2 \
-       -o atd-mcl/full/main/json/set-b_train2.json
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-118/json/set-b_train2.json \
+       -tp doc_id_lists/split-118/set-b_train2_ids.txt
 
-# main set-a train1 & set-b train2
+# main split-118 set-a train1 & set-b train2
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json \
+       -i atd-mcl/full/main/split-118/json \
        -t set-a_train1.json,set-b_train2.json \
-       -o atd-mcl/full/main/json/train-all.json
+       -o atd-mcl/full/main/split-118/json/train-all.json
 
-# main set-b dev
+# main split-118 set-b dev
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json_per_doc/set-b/dev \
-       -o atd-mcl/full/main/json/set-b_dev.json
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-118/json/set-b_dev.json \
+       -tp doc_id_lists/split-118/set-b_dev_ids.txt
 
-# main set-b test1
+# main split-118 set-b test1
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json_per_doc/set-b/test1 \
-       -o atd-mcl/full/main/json/set-b_test1.json
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-118/json/set-b_test1.json \
+       -tp doc_id_lists/split-118/set-b_test1_ids.txt
 
-# main set-b test2
+# main split-118 set-b test2
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json_per_doc/set-b/test2 \
-       -o atd-mcl/full/main/json/set-b_test2.json
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-118/json/set-b_test2.json \
+       -tp doc_id_lists/split-118/set-b_test2_ids.txt
 
-# main set-b test1 & test2
+# main split-118 set-b test1 & test2
 python src/merge_jsons_into_single_json.py \
-       -i atd-mcl/full/main/json \
+       -i atd-mcl/full/main/split-118/json \
        -t set-b_test1.json,set-b_test2.json \
-       -o atd-mcl/full/main/json/test-all.json
+       -o atd-mcl/full/main/split-118/json/test-all.json
+
+################################################################
+# [split-712] Merge multiple docs and save them as a json file of all input docs
+
+# main split-712 set-a train1
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/json_per_doc/set-a \
+       -o atd-mcl/full/main/split-712/json/set-a_train1.json \
+       -tp doc_id_lists/split-712/set-a_train1_ids.txt
+
+# main split-712 set-b train2
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-712/json/set-b_train2.json \
+       -tp doc_id_lists/split-712/set-b_train2_ids.txt
+
+# main split-712 set-a train1 & set-b train2
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/split-712/json \
+       -t set-a_train1.json,set-b_train2.json \
+       -o atd-mcl/full/main/split-712/json/train-all.json
+
+# main split-712 set-b dev
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-712/json/set-b_dev.json \
+       -tp doc_id_lists/split-712/set-b_dev_ids.txt
+
+# main split-712 set-b test1
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-712/json/set-b_test1.json \
+       -tp doc_id_lists/split-712/set-b_test1_ids.txt
+
+# main split-712 set-b test2
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/json_per_doc/set-b \
+       -o atd-mcl/full/main/split-712/json/set-b_test2.json \
+       -tp doc_id_lists/split-712/set-b_test2_ids.txt
+
+# main split-712 set-b test1 & test2
+python src/merge_jsons_into_single_json.py \
+       -i atd-mcl/full/main/split-712/json \
+       -t set-b_test1.json,set-b_test2.json \
+       -o atd-mcl/full/main/split-712/json/test-all.json

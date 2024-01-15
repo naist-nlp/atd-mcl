@@ -1,8 +1,8 @@
 atd/data
 atd-mcl/full/agreement/json_per_doc/*/*/*.json
 atd-mcl/full/main/json/*.json
-atd-mcl/full/main/json_per_doc/*/*/*.json
+atd-mcl/full/main/json_per_doc/*/*.json
 atd-mcl/full/main/link_tsv/*.tsv
-atd-mcl/full/main/link_tsv_per_doc/*/*/*.tsv
+atd-mcl/full/main/link_tsv_per_doc/*/*.tsv
 atd-mcl/full/main/mention_tsv/*.tsv
-atd-mcl/full/main/mention_tsv_per_doc/*/*/*.tsv
+atd-mcl/full/main/mention_tsv_per_doc/*/*.tsv
