@@ -24,17 +24,17 @@ In our geocoding paper, we used "split-712", which split 100 Set-B documents int
 |test1    |Set-B     |  10|
 |test2    |Set-B     |  10|
 
-As the difference from the split-118 data, (randomly-selected) 30 and 30 documents in the split-118 test1 and test2 set, respectively, have been added to the split-118 train2 set in the split-712 train2 set. Thus, the train1 and dev sets were identical for the two splits.
+As the difference from the split-118 data, (randomly-sampled) 30 and 30 documents in the split-118 test1 and test2 sets, respectively, have been added to the train2 set in split-712. Thus, the train1 and dev sets were identical for the two splits.
 
 ## How to Split
 
 The detailed process of split data creation is as follows.
 
-1. For each entity E in each document D, the number of documents that the entity occurred except for the document itself (`NumInOtherDocs(E, D)`).
-    - For example, if entities with the same link L occur in documents D1, D2, and D3, then the entities are regarded as the same entity E, and `NumInOtherDocs(E, D1)=2`.
+1. For each entity E in each document D, count the number of documents that the entity occurred except for the document itself (`NumInOtherDocs(E, D)`).
+    - For example, if entities with the same link L occur in documents D1, D2, and D3, then the entities are regarded as the same entity E, and `NumInOtherDocs(E, D1)=NumInOtherDocs(E, D2)=NumInOtherDocs(E, D3)=2`.
 1. For each document D, calculate `MaxEntNumInOtherDocs(D)`, which is the maximum value of `NumOtherDocs(*, D)`.
-    - The lower `MaxEntNumInOtherDocs(D)` value suggests more difficulty in terms of mention recognition and entity disambiguation.
-1. 40 Set-B documents with 0 <= `MaxEntNumInOtherDocs(D)` <= 3 were assigned to split-118 test2 set. The remaining 60 Set-B documents with 3 <= `MaxEntNumInOtherDocs(D)` <= 17 were randomly split into 10:10:40 (split-118 train2:dev:test1).
+    - The lower `MaxEntNumInOtherDocs(D)` value suggests that the document D is the more difficult document in terms of mention recognition and entity disambiguation.
+1. 40 Set-B documents with `0 <= MaxEntNumInOtherDocs(D) <= 3` were assigned to split-118 test2 set. The remaining 60 Set-B documents with `3 <= MaxEntNumInOtherDocs(D) <= 17` were randomly split into 10:10:40 (split-118 train2:dev:test1).
 
 ## Papers
 

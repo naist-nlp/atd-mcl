@@ -6,7 +6,7 @@
 1. Obtain the Arukikata Travelogue Dataset (ATD) original data (`data.zip`) from the NII IDR site <https://www.nii.ac.jp/dsc/idr/arukikata/>.
 1. Decompress `data.zip` and then move `data` directory to under `atd` directory (or create a symbolic link to `data` directory in `atd` directory).
 1. Excute `bin/gen_full_data_json.sh`.
-    - The restored data will be placed at `atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc/`.
+    - The restored data will be placed at `atd-mcl/full/main/json_per_doc/` and `atd-mcl/full/main/split-*/json`.
     - The data used for calculating inter-annotator aggreement scores will be placed at `atd-mcl/full/agreement/`.
 1. Excute `bin/gen_full_data_tsv.sh`.
     - The restored data will be placed at `atd-mcl/full/main/link_tsv_per_doc` and `atd-mcl/full/main/mention_tsv_per_doc`.
