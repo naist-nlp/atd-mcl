@@ -80,7 +80,7 @@ The JSON data (`atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc`) ho
     ~~~~
 - A sentence object under `sentences` is as follows:
     - A sentence object may have one or more geographic entity mentions.
-    - Some sentences with an ID that has a branch number (e.g., "026-01" and "026-02") indicate that a single sentence in the original ATD data was split into those multiple sentences.
+    - Some sentences with an ID that has a branch number (e.g., "026-01" and "026-02") indicate that a text in the original ATD data was split into those multiple sentences.
     ~~~~
     "sentences": {
       "001": {
