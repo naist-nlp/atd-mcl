@@ -50,9 +50,9 @@ Dataset Paper
 
 Geocoding Paper
 ~~~~
-@inproceedings{nakatani-etal-2024-nihongo,
+@inproceedings{nakatani-etal-2024-mention,
     author = "中谷響 and 寺西裕紀 and 東山翔平 and 大内啓樹 and 渡辺太郎",
-    title = "メンション文脈とエントリ属性を考慮したTransformer Bi-Encoderによるジオコーディング",
+    title = "メンション文脈とエントリ属性を考慮した{T}ransformer Bi-Encoderによるジオコーディング",
     booktitle ="言語処理学会第30回年次大会発表論文集",
     year = "2024",
 }
