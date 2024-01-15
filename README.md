@@ -9,7 +9,7 @@
     - The restored data will be placed at `atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc/`.
     - The data used for calculating inter-annotator aggreement scores will be placed at `atd-mcl/full/agreement/`.
 1. Excute `bin/gen_full_data_tsv.sh`.
-    - The restored data will be placed at `atd-mcl/full/main/link_tsv`, `atd-mcl/full/main/link_tsv_per_doc`, `atd-mcl/full/main/mention_tsv`, and `atd-mcl/full/main/mention_tsv_per_doc`.
+    - The restored data will be placed at `atd-mcl/full/main/link_tsv_per_doc` and `atd-mcl/full/main/mention_tsv_per_doc`.
 
 ## Data Statistics
 
@@ -21,23 +21,15 @@ The Set-A data consists of 100 documents annotated only with mention and corefer
 |Set-B| 100| 6,324| 87,074|   6,119|  3,208|
 |Total| 200|12,273|172,815|  12,171|  6,339|
 
-## Official Data Split
+##  Data Split
 
-We used the following data split in the experiments in [our paper](https://arxiv.org/abs/2305.13844).
-
-|      |Source set|#Doc|
-|--    |--        |--  |
-|train1|A         | 100|
-|train2|B         |  10|
-|dev   |B         |  10|
-|test1 |B         |  40|
-|test2 |B         |  40|
+See `docs/data_split.md`.
 
 ## Data Format
 
 ### JSON Data Format
 
-The JSON data (`atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc`) holds full annotation information as follows.
+The JSON data (`atd-mcl/full/main/split-*/json` and `atd-mcl/full/main/json_per_doc`) holds full annotation information as follows.
 
 - A document object value is assosiated with a key that represents the  document ID (e.g., `00019`). Each document object has the sets of `sections`, `sentences`, `mentions`, and `entities`.
    ~~~~
@@ -80,7 +72,7 @@ The JSON data (`atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc`) ho
     ~~~~
 - A sentence object under `sentences` is as follows:
     - A sentence object may have one or more geographic entity mentions.
-    - Some sentences with an ID that has a branch number (e.g., "026-01" and "026-02") indicate that a text in the original ATD data was split into those multiple sentences.
+    - Some sentences with an ID that has a branch number (e.g., "026-01" and "026-02") indicate that a line of text in the original ATD data was split into those multiple sentences.
     ~~~~
     "sentences": {
       "001": {
@@ -147,7 +139,7 @@ The JSON data (`atd-mcl/full/main/json` and `atd-mcl/full/main/json_per_doc`) ho
 
 ### Mention TSV Data Format
 
-The mention TSV data (`atd-mcl/full/main/mention_tsv` and `atd-mcl/full/main/mention_tsv_per_doc`) holds mention-related annotation information as follows.
+The mention TSV data (`atd-mcl/full/main/mention_tsv_per_doc`) holds mention-related annotation information as follows.
 
 - 1st column: document_id
 - 2nd column: section_id:sentence_id
@@ -168,7 +160,7 @@ Example:
 ~~~~
 ### Link TSV Data Format
 
-The link TSV data (`atd-mcl/full/main/link_tsv` and `atd-mcl/full/main/link_tsv_per_doc`) holds link-related annotation information.
+The link TSV data (`atd-mcl/full/main/link_tsv_per_doc`) holds link-related annotation information.
 Specifically, entities and their member mentions (except for GENERIC and SPEC_AMB entities/mentions) are listed in TSV rows.
 The column with a non-empty `entity_id` value corresponds to an entity, and the column with a non-empty `mention_id` value corresponds to a member mention of the preceding entity column.
 
