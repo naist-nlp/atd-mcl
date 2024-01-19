@@ -4,7 +4,7 @@
 
 Two types of data splits are defined.
 
-In our dataset paper, we used "split-118", which split 100 Set-B documents into 1:1:8.
+In our dataset papers, we used "split-118", which split 100 Set-B documents into 1:1:8.
 
 |split-118|Source set|#Doc|
 |--       |--        |--  |
@@ -38,7 +38,16 @@ The detailed process of split data creation is as follows.
 
 ## Papers
 
-Dataset Paper
+Dataset Papers
+~~~~
+@inproceedings{higashiyama-etal-2024-arukikata,
+    title = "Arukikata Travelogue Dataset with Geographic Entity Mention, Coreference, and Link Annotation",
+    author = "Higashiyama, Shohei and Ouchi, Hiroki and Teranishi, Hiroki and Otomo, Hiroyuki and Ide, Yusuke and Yamamoto, Aitaro and Shindo, Hiroyuki and Matsuda, Yuki and Wakamiya, Shoko and Inoue, Naoya and Yamada, Ikuya and Watanabe, Taro",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+}
+~~~~
 ~~~~
 @inproceedings{higashiyama-etal-2024-nihongo,
     author = "東山翔平 and 大内啓樹 and 寺西裕紀 and 大友寛之 and 井手佑翼 and 山本和太郎 and 進藤裕之 and 渡辺太郎",
