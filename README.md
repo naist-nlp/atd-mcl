@@ -190,4 +190,14 @@ This study was supported by JSPS KAKENHI Grant Number JP22H03648.
 
 ## Citation
 
-- Shohei Higashiyama, Hiroki Ouchi, Hiroki Teranishi, Hiroyuki Otomo, Yusuke Ide, Aitaro Yamamoto, Hiroyuki Shindo, Yuki Matsuda, Shoko Wakamiya, Naoya Inoue, Ikuya Yamada, and Taro Watanabe. Arukikata Travelogue Dataset with Geographic Entity Mention, Coreference, and Link Annotation. arXiv:2305.13844, May 2023. https://arxiv.org/abs/2305.13844
+Please cite the following paper.
+
+~~~~
+@inproceedings{higashiyama-etal-2024-arukikata,
+    title = "Arukikata Travelogue Dataset with Geographic Entity Mention, Coreference, and Link Annotation",
+    author = "Higashiyama, Shohei and Ouchi, Hiroki and Teranishi, Hiroki and Otomo, Hiroyuki and Ide, Yusuke and Yamamoto, Aitaro and Shindo, Hiroyuki and Matsuda, Yuki and Wakamiya, Shoko and Inoue, Naoya and Yamada, Ikuya and Watanabe, Taro",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+}
+~~~~
