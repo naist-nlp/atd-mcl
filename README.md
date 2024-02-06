@@ -187,6 +187,7 @@ See `docs/data_specification`.
 ## Acknowledgements
 
 This study was supported by JSPS KAKENHI Grant Number JP22H03648.
+The annotation data was constructed by [IR-Advanced Linguistic Technologies Inc.](https://ir-alt.co.jp/)
 
 ## Citation
 
