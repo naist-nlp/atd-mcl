@@ -61,15 +61,15 @@ Mention (mention ID starts with `M`)
 - *`span`: The pair of the mention's first and last character offsets in the sentence.
 - `text`: The mention text.
 - *`entity_type`: The entity type of the mention.
+- *`generic`: Whether `GENERIC` is assigned to the mention.
+- *`ref_spec_amb`: Whether `SPEC_AMB` is assigned to the mention.
+- *`ref_hie_amb`: Whether `HIE_AMB` is assigned to the mention.
 
 Entity (entity ID starts with `E`)
 - *`normalized_name`: The normalized name of the location to which the entity refers.
 - `entity_type_merged`: The type of the entity automatically derived from the members' entity type.
 - *`member_mention_ids`: The IDs of member mentions of the entity.
 - *`coref_attr_pairs`: Directed edges correspond to attributive coreference.
-- *`generic`: Whether `GENERIC` is assigned to the (singleton) entity.
-- *`ref_spec_amb`: Whether `SPEC_AMB` is assigned to the (singleton) entity.
-- *`ref_hie_amb`: Whether `HIE_AMB` is assigned to the (singleton) entity.
 - `has_name`: Whether the entity has a member mention with the `NAME` entity type.
 - `has_reference`: Whether the entity is assigned an OSM entry or other site URL.
 - *`best_ref_type`: The reference type of the assigned URL.
